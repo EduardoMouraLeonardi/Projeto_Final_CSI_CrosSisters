@@ -22,3 +22,13 @@ Route::get('/', function () {
 // CATEGORIA 
 
 Route::get('/categoria', [CategoriaController::class,'index'])->name('categoria.index');
+
+Route::get('/categoria/create', [CategoriaController::class, 'create']);
+Route::post('/categoria/create', [CategoriaController::class, 'store']);
+
+Route::get('/categoria/{id}', [CategoriaController::class, 'show']);
+
+Route::get('/categoria/{id}/edit', [CategoriaController::class, 'edit']);
+Route::put('/categoria/{id}', [CategoriaController::class, 'update']);
+
+Route::delete('/categoria/{id}/', [CategoriaController::class, 'destroy']);
