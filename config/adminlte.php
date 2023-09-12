@@ -326,7 +326,7 @@ return [
         ],
         [
             'text' => 'Produto',
-            'url'  => 'produtos',
+            'url'  => 'produto',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
