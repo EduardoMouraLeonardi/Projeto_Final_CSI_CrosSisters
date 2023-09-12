@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\ProdutoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +47,7 @@ Route::get('/produto/{id}/edit', [ProdutoController::class, 'edit']);
 Route::put('/produto/{id}', [ProdutoController::class, 'update']);
 
 Route::delete('/produto/{id}', [ProdutoController::class, 'destroy']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
