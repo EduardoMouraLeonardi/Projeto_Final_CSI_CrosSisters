@@ -34,6 +34,7 @@ Route::put('/categoria/{id}', [CategoriaController::class, 'update']);
 
 Route::delete('/categoria/{id}/', [CategoriaController::class, 'destroy']);
 
+
 // PRODUTO
 
 Route::get('/produto', [ProdutoController::class, 'index'])->name('produto.index');
@@ -47,6 +48,24 @@ Route::get('/produto/{id}/edit', [ProdutoController::class, 'edit']);
 Route::put('/produto/{id}', [ProdutoController::class, 'update']);
 
 Route::delete('/produto/{id}', [ProdutoController::class, 'destroy']);
+
+
+// EMAIL
+
+Route::get('/email', [EmailController::class, 'index'])->name('email.index');
+
+Route::get('/email/create', [EmailController::class, 'create']);
+Route::post('/email/create', [EmailController::class, 'store']);
+
+Route::get('/email/{id}', [EmailController::class, 'show']);
+
+Route::get('/email/{id}/edit', [EmailController::class, 'edit']);
+Route::put('/email/{id}', [EmailController::class, 'update']);
+
+Route::delete('/email/{id}/', [EmailController::class, 'destroy']);
+
+
+// HOME
 
 Auth::routes();
 
