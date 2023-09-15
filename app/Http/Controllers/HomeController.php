@@ -29,6 +29,16 @@ class HomeController extends Controller
         $categoria_count = Categoria::count();
         $produtos_count = Produto::count();
         $email_count = Email::count();
-        return view('home', ['categoria_count' => $categoria_count, 'produtos_count' => $produtos_count, 'email_count' => $email_count]);
+
+        $categorias = Categoria::get();
+        $produtos = Produto::get();
+
+        return view('home', [
+            'categoria_count'   => $categoria_count, 
+            'produtos_count'    => $produtos_count, 
+            'email_count'       => $email_count,
+            'categorias'        => $categorias,
+            'produtos'          => $produtos,
+        ]);
     }
 }
