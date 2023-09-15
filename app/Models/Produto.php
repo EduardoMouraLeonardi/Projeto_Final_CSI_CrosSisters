@@ -10,4 +10,8 @@ class Produto extends Model
     use HasFactory;
 
     protected $table = 'produtos';
+    protected $fillable = [
+        'filename',
+        'path'
+    ];
 }

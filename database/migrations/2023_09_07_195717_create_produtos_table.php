@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('nome');
             $table->float('preco');
             $table->integer('quantidade');
+            $table->string('filename');
+            $table->string('path');
             $table->timestamps();
         });
     }

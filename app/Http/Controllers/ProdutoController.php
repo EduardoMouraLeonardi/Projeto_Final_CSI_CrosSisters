@@ -29,6 +29,9 @@ class ProdutoController extends Controller
      */
     public function store(Request $request)
     {
+
+        //dd($request->all());
+        
         $messages = [
             'nome.required' => 'O campo :attribute é OBRIGATORIO!',
             'quantidade.required' => 'O campo :attribute é OBRIGATORIO!',
@@ -45,6 +48,16 @@ class ProdutoController extends Controller
         $produto->nome= $request->nome;
         $produto->quantidade= $request->quantidade;
         $produto->preco= $request->preco;
+
+        if($request->hasFile('imagem')){
+            //dd("teste");            
+            $imageFileName = $request->file('imagem')->getClientOriginalName();
+
+            $path = $request->file('imagem')->store('public/imagens');
+
+            $produto-> filename = $imageFileName;
+            $produto-> path = str_replace('public/', '', $path);
+        }
         $produto->save();
     
         return redirect()-> route('produto.index')->with('status', 'Produto criado com sucesso!');
