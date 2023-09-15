@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Categoria;
 use App\Models\Produto;
+use App\Models\Email;
 
 class HomeController extends Controller
 {
@@ -27,6 +28,7 @@ class HomeController extends Controller
     {
         $categoria_count = Categoria::count();
         $produtos_count = Produto::count();
-        return view('home', ['categoria_count' => $categoria_count, 'produtos_count' => $produtos_count]);
+        $email_count = Email::count();
+        return view('home', ['categoria_count' => $categoria_count, 'produtos_count' => $produtos_count, 'email_count' => $email_count]);
     }
 }
