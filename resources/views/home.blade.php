@@ -2,6 +2,40 @@
 
 @section('content')
 <div class="container">
+
+<div class="row">
+<div class="col-lg-3 col-6">
+
+<div class="small-box bg-info">
+<div class="inner">
+<h3>{{ $categoria_count }}</h3>
+<p> Categoria </p>
+</div>
+<div class="icon">
+<i class="ion ion-bag"></i>
+</div>
+<a href="{{ url('/categoria') }}" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6">
+
+<div class="small-box bg-warning">
+<div class="inner">
+<h3>{{ $produtos_count }}</h3>
+<p> Produto </p>
+</div>
+<div class="icon">
+<i class="ion ion-person-add"></i>
+</div>
+<a href="{{ url('/produto') }}" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
+</div>
+</div>
+
+
+</div>
+
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
