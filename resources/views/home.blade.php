@@ -2,6 +2,26 @@
 
 @section('content')
 
+<div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('CrosSisters') }}</div>
+
+                <div class="card-body">
+
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+
+                    {{ __('Sejam todos Bem-vindos!') }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {{-- grafico de pizza --}}
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -82,23 +102,5 @@
 
 <div id="piechart" style="width: 450px; height: 250px;"></div>
 
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('CrosSisters') }}</div>
 
-                <div class="card-body">
-
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('Sejam todos Bem-vindos!') }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection
