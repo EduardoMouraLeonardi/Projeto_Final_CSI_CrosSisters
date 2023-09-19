@@ -54,7 +54,7 @@
 <div class="container">
 
 <div class="row">
-<div class="col-lg-4 col-6">
+<div class="col-lg-4 col-4">
 
 <div class="small-box bg-info">
 <div class="inner">
@@ -69,7 +69,7 @@
 </div>
 
 
-<div class="col-lg-4 col-6">
+<div class="col-lg-4 col-4">
 
 <div class="small-box bg-warning">
 <div class="inner">
@@ -83,7 +83,7 @@
 </div>
 </div>
 
-<div class="col-lg-4 col-6">
+<div class="col-lg-4 col-4">
 
 <div class="small-box bg-danger">
 <div class="inner">
