@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('quantidade');
             $table->string('filename');
             $table->string('path');
+            $table->bigInteger('categoria-id');
             $table->timestamps();
         });
     }
