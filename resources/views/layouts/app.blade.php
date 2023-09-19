@@ -16,7 +16,8 @@
 					<li><a href="{{ url('/') }}">Home</a></li>
 					<li><a href="{{ url('/listaDeProdutos') }}">Produtos</a></li>
 					<li><a href="{{ url('/') }}">Portfolio</a></li>
-					<li><a href="{{ url('/') }}">Contact</a></li>
+					<li><a href="{{ url('/') }}">Contatos</a></li>
+					<li><a href="{{ url('/login') }}">Login</a></li>
 				</ul>
 			</nav>
         
@@ -24,12 +25,11 @@
             @yield('content')
         </div>
     
-        <!-- Contact -->
-			<article id="contact" class="wrapper style4">
+	 <!-- Contact -->
+	 <article id="contact" class="wrapper style4">
 				<div class="container medium">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<h2>Bem-vindos ao site CrosSisters</h2>
 					</header>
 					<div class="row">
 						<div class="col-12">

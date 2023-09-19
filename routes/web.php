@@ -52,6 +52,8 @@ Route::delete('/produto/{id}', [ProdutoController::class, 'destroy']);
 
 Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
 
+
+
 // EMAIL
 
 Route::get('/email', [EmailController::class, 'index'])->name('email.index');
