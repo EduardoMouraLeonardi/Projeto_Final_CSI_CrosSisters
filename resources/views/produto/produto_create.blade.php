@@ -21,10 +21,10 @@
     
   <label  class="form-label" for="cars">Escolha uma categoria:</label>
 
-  <select class="form-control" name="categoria-id" id="categoria_id">
+  <select class="form-control" name="categoria_id" id="categoria_id">
 
-@foreach ($categorias as $categoria )
-    <option value="{{categoria->id}}">{{categoria->nome}}</option>
+@foreach ($categorias as $categoria)
+    <option value="{{$categoria->id}}">{{$categoria->nome}}</option>
 @endforeach
 
   </select>

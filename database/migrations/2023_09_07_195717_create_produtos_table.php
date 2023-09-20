@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nome');
             $table->float('preco');
             $table->integer('quantidade');
-            $table->bigInteger('categoria-id');
+            $table->bigInteger('categoria_id');
             $table->string('filename')->nullable();
             $table->string('path')->nullable();
             $table->timestamps();
