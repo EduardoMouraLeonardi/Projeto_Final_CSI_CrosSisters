@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Produto;
+use App\Models\Categoria;
 
 class ProdutoController extends Controller
 {
@@ -21,7 +22,8 @@ class ProdutoController extends Controller
      */
     public function create()
     {
-        return view('produto.produto_create');
+        $categoria = Categoria::orderby('nome','ASC')->get();
+        return view('produto.produto_create', ['categoria'=> $categoria]);
     }
 
     /**
@@ -33,21 +35,23 @@ class ProdutoController extends Controller
         //dd($request->all());
         
         $messages = [
-            'nome.required' => 'O campo :attribute é OBRIGATORIO!',
-            'quantidade.required' => 'O campo :attribute é OBRIGATORIO!',
-            'preco.required' => 'O campo :attribute é OBRIGATORIO!',
+            'nome.required'         => 'O campo :attribute é OBRIGATORIO!',
+            'quantidade.required'   => 'O campo :attribute é OBRIGATORIO!',
+            'preco.required'        => 'O campo :attribute é OBRIGATORIO!',
+            'categoria_id.required' => 'O campo :attribute é OBRIGATORIO!',
         ];
     
         $validated = $request->validate([
-            'nome' => 'required',
-            'quantidade' => 'required',
-            'preco' => 'required',
+            'nome'          => 'required',
+            'quantidade'    => 'required',
+            'preco'         => 'required',
+            'categoria_id'  => 'required',
         ], $messages);
     
         $produto = new Produto();
-        $produto->nome= $request->nome;
+        $produto->nome      = $request->nome;
         $produto->quantidade= $request->quantidade;
-        $produto->preco= $request->preco;
+        $produto->preco     = $request->preco;
 
         if($request->hasFile('imagem')){
             //dd("teste");            
@@ -78,7 +82,8 @@ class ProdutoController extends Controller
     public function edit(string $id)
     {
         $produto = Produto::find($id);
-        return view('produto.produto_edit', ['produto' => $produto]);
+        $categorias = Categoria::orderBy('nome','ASC')->get();
+        return view('produto.produto_edit', ['produto' => $produto, 'categorias'=>$categorias]);
     }
 
     /**
@@ -90,12 +95,14 @@ class ProdutoController extends Controller
             'nome.required' => 'O campo :attribute é OBRIGATORIO!',
             'quantidade.required' => 'O campo :attribute é OBRIGATORIO!',
             'preco.required' => 'O campo :attribute é OBRIGATORIO!',
+            'categoria_id.required' => 'O campo :attribute é OBRIGATORIO!',
         ];
 
         $validated = $request->validate([
             'nome' => 'required',
             'quantidade' => 'required',
             'preco' => 'required',
+            'categoria_id' => 'required',
         ], $messages);
     
 
@@ -104,6 +111,7 @@ class ProdutoController extends Controller
         $produto->nome = $request->nome;
         $produto->quantidade = $request->quantidade;
         $produto->preco = $request->preco;
+        $produto->categoria_id = $request->categoria_id;
         $produto->save();
 
         return redirect()-> route('produto.index')->with('status', 'Produto atualizado com sucesso!');

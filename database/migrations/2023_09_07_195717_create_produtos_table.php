@@ -11,17 +11,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('produtos', function (Blueprint $table) {
+        Schema::create('produtos', function (Blueprint $table){
             $table->id();
             $table->string('nome');
             $table->float('preco');
             $table->integer('quantidade');
+            $table->bigInteger('categoria-id');
             $table->string('filename')->nullable();
             $table->string('path')->nullable();
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      */

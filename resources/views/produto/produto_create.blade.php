@@ -18,6 +18,16 @@
 <form method="POST" action="{{ url('/produto/create') }}" enctype="multipart/form-data">
 
     @csrf
+    
+  <label  class="form-label" for="cars">Escolha uma categoria:</label>
+
+  <select class="form-control" name="categoria-id" id="categoria_id">
+
+@foreach ($categorias as $categoria )
+    <option value="{{categoria->id}}">{{categoria->nome}}</option>
+@endforeach
+
+  </select>
 
     <label class="form-label" for="nome">Nome:</label><br>
     <input class="form-control" type="text" name="nome"><br>
