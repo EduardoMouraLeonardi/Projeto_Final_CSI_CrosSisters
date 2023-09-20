@@ -19,7 +19,7 @@
     @method('PUT')
     @csrf
 
-    <select class="form-control" name="categoria-id" id="categoria_id">
+    <select class="form-control" name="categoria_id" id="categoria_id">
 
 @foreach ($categorias as $categoria)
     @if ($categoria->id == $produto->categoria_id)
