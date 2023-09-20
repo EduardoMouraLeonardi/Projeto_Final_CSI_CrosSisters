@@ -22,8 +22,9 @@ class ProdutoController extends Controller
      */
     public function create()
     {
-        $categoria = Categoria::orderby('nome','ASC')->get();
-        return view('produto.produto_create', ['categoria'=> $categoria]);
+        //$produto = Produto::get();
+        $categorias = Categoria::orderBy('nome','ASC')->get();
+        return view('produto.produto_create', ['categorias'=> $categorias]); 
     }
 
     /**
@@ -49,9 +50,10 @@ class ProdutoController extends Controller
         ], $messages);
     
         $produto = new Produto();
-        $produto->nome      = $request->nome;
-        $produto->quantidade= $request->quantidade;
-        $produto->preco     = $request->preco;
+        $produto->nome          = $request->nome;
+        $produto->quantidade    = $request->quantidade;
+        $produto->preco         = $request->preco;
+        $produto->categoria_id  = $request->categoria_id;
 
         if($request->hasFile('imagem')){
             //dd("teste");            
@@ -83,7 +85,7 @@ class ProdutoController extends Controller
     {
         $produto = Produto::find($id);
         $categorias = Categoria::orderBy('nome','ASC')->get();
-        return view('produto.produto_edit', ['produto' => $produto, 'categorias'=>$categorias]);
+        return view('produto.produto_edit', ['produto' => $produto  ,'categorias'=> $categorias]);
     }
 
     /**

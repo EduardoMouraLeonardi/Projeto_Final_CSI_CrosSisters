@@ -4,7 +4,9 @@
 <div class="container">
 
 <h2>Produtos<h2>
+@can('is_admin')
 <a class="btn btn-success" href="{{url('/produto/create')}}">Criar</a><br>
+@endcan
 
 <script>
     function ConfirmDelete() {
