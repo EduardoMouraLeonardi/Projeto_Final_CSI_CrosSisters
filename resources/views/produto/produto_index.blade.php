@@ -23,6 +23,7 @@
 <table class="table table-bordered table-hover">
   <tr>
     <th>Id</th>
+    <th>Categoria</th>
     <th>Nome</th>
     <th>Quantidade</th>
     <th>Preço</th>
@@ -32,6 +33,7 @@
 @foreach ($produtos as $produto)
   <tr>
     <td>{{$produto->id}}</td>
+    <td>{{$produto->categoria->nome}}</td>
     <td>{{$produto->nome}}</td>
     <td>{{$produto->quantidade}}</td>
     <td>{{$produto->preco}}</td>
