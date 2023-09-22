@@ -335,11 +335,13 @@ return [
             'text' => 'Categoria',
             'url'  => 'categoria',
             'icon' => 'fas fa-fw fa-user',
+            'can'  => 'is_admin',
         ],
         [
             'text' => 'Emails',
             'url'  => 'email',
             'icon' => 'fas fa-fw fa-user',
+            'can'  => 'is_admin',
         ],
         [
             'text' => 'change_password',

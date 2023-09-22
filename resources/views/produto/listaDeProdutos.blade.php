@@ -30,5 +30,5 @@
 						<a href="#contact" class="button large scrolly">Get in touch with me</a>
 					</footer>
 				</div>
-			</article>
+			</article><br>
 @endsection
