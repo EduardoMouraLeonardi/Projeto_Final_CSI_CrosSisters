@@ -51,7 +51,7 @@
 
 																<!-- Card -->
 	<div class="container">
-	<div class="row row-cols-1 row-cols-md-2 g-4">
+	<div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center">
 
   <div class="col card border-danger mb-3" style="max-width: 18rem;">
     <div class="card">
