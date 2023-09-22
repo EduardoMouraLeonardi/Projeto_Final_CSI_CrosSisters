@@ -53,7 +53,6 @@ Route::middleware(['can:is_admin'])->group(function () {
 
     Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
 
-});
 
     // EMAIL
 
@@ -77,3 +76,5 @@ Route::middleware(['can:is_admin'])->group(function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+});
