@@ -11,7 +11,7 @@
     <strong>Criação: </strong>{{$produto->created_at}}<br>
     <strong>Atualização: </strong>{{$produto->updated_at}}<br>
 
-    <img src="{{ url('storage/' . $produto->path) }}"
+    <img src="{{ url('storage/' . $produto->path) }}">
 
 </div>
 @endsection
