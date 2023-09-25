@@ -68,7 +68,7 @@ Route::middleware(['can:is_admin'])->group(function () {
 
     Route::delete('/email/{id}/', [EmailController::class, 'destroy']);
 
-
+});
 
 
 // HOME
@@ -76,5 +76,3 @@ Route::middleware(['can:is_admin'])->group(function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-});
