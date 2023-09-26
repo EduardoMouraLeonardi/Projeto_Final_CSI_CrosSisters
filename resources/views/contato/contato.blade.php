@@ -39,8 +39,8 @@
 							<ul class="social">
 								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+								<li><a href="https://www.instagram.com/crossisters.rs/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=5551999982535&text&type=phone_number&app_absent=0" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 </div>
 																	<!-- fim do contato-->
 
