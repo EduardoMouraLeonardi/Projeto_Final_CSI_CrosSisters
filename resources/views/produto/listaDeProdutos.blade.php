@@ -27,7 +27,7 @@
 					</div>
 					<footer>
 						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						
 					</footer>
 				</div>
 			</article><br>
