@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Categoria;
 use App\Models\Produto;
 use App\Models\Email;
+use App\Models\Contato;
 
 class HomeController extends Controller
 {
@@ -16,7 +17,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -41,4 +42,9 @@ class HomeController extends Controller
             'produtos'          => $produtos,
         ]);
     }
+
+    public function contato(){
+        return view ('contato.contato');
+    }
+
 }

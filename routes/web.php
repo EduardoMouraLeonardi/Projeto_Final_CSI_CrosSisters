@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\EmailController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,6 +53,7 @@ Route::middleware(['can:is_admin'])->group(function () {
     Route::delete('/produto/{id}', [ProdutoController::class, 'destroy']);
 
     Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
+    Route::get('/contato', [HomeController::class, 'contato']);
 
 
     // EMAIL

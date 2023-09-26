@@ -22,7 +22,7 @@
     </div>
 </div>
 
-{{-- grafico de pizza --}}
+<!-- grafico de pizza -->
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -49,7 +49,7 @@
       }
     </script>
 
-{{-- colunas/cards --}}
+<!-- colunas/cards -->
 
 <div class="container">
 
