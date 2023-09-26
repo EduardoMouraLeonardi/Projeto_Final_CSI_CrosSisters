@@ -4,7 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\EmailController;
+<<<<<<< Updated upstream
 use App\Http\Controllers\HomeController;
+=======
+use App\Http\Controllers\AdminController;
+>>>>>>> Stashed changes
 
 /*
 |--------------------------------------------------------------------------
@@ -77,3 +81,5 @@ Route::middleware(['can:is_admin'])->group(function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin/pages', [AdminController::class, 'index'])->name('home');
