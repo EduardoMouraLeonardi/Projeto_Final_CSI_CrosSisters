@@ -4,11 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\EmailController;
-<<<<<<< Updated upstream
 use App\Http\Controllers\HomeController;
-=======
 use App\Http\Controllers\AdminController;
->>>>>>> Stashed changes
 
 /*
 |--------------------------------------------------------------------------
