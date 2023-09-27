@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Email;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
-
+use Illuminate\Support\Str;
 
 class EmailController extends Controller
 {
@@ -24,6 +24,10 @@ class EmailController extends Controller
     public function store(Request $request)
     {
         //dd($request->all());
+
+        $origem_contato = Str::endsWith($request->headers->get('referer'), 'contato');
+
+        //dd($origem_contato);
 
         $messages = [
             'nome.required' => 'O :attribute é obrigatório.',
@@ -44,9 +48,13 @@ class EmailController extends Controller
         $email->conteudo = $request->conteudo;
         $email->save();
 
-        Mail::to($email->email2)->send(new SendMail($email));
+        Mail::to($email->email2)->cco('pedrohenrriquefreitas135@gmail.com')->send(new SendMail($email));
 
-        return redirect()->route('email.index')->with('status', 'Email enviado com sucesso!');
+        if($origem_contato){
+            return redirect()->route('contato')->with('status', 'Email enviado com sucesso!');
+        } else {
+            return redirect()->route('email.index')->with('status', 'Email enviado com sucesso!');
+        }
 
     }
 
