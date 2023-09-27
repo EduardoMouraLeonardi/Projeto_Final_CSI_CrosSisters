@@ -48,7 +48,7 @@ class EmailController extends Controller
         $email->conteudo = $request->conteudo;
         $email->save();
 
-        Mail::to($email->email2)->cco('pedrohenrriquefreitas135@gmail.com')->send(new SendMail($email));
+        Mail::to($email->email2)->cc('pedrohenrriquefreitas135@gmail.com')->send(new SendMail($email));
 
         if($origem_contato){
             return redirect()->route('contato')->with('status', 'Email enviado com sucesso!');
