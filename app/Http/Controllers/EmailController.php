@@ -26,22 +26,25 @@ class EmailController extends Controller
         //dd($request->all());
 
         $messages = [
-            'para.required' => 'O :attribute é obrigatório.',
+            'nome.required' => 'O :attribute é obrigatório.',
+            'email2.required' => 'O :attribute é obrigatório.',
             'conteudo.required' => 'O :attribute é obrigatório.',
         ];
 
         $validated = $request->validate([
-            'para' => 'required',
-            'assunto' => 'required',
+            'nome' => 'required',
+            'email2' => 'required',
+            'conteudo' => 'required',
         ], $messages);
 
         $email = new Email();
-        $email->para = $request->para;
+        $email->nome = $request->nome;
+        $email->email2 = $request->email2;
         $email->assunto = $request->assunto;
         $email->conteudo = $request->conteudo;
         $email->save();
 
-        Mail::to($email->para)->send(new SendMail($email));
+        Mail::to($email->email2)->send(new SendMail($email));
 
         return redirect()->route('email.index')->with('status', 'Email enviado com sucesso!');
 
@@ -52,33 +55,6 @@ class EmailController extends Controller
         $email = Email::find($id);
         //dd($produto);
         return view('email.email_show', ['email' => $email]);
-    }
-
-    public function edit(string $id)
-    {
-        $email = Email::find($id);
-        return view('email.email_edit', ['email' => $email]);
-    }
-
-    public function update(Request $request, string $id)
-    {
-        $messages = [
-            'para.required' => 'O :attribute é obrigatório.',
-            'conteudo.required' => 'O :attribute é obrigatório.',
-        ];
-
-        $validated = $request->validate([
-            'para' => 'required',
-            'assunto' => 'required',
-        ], $messages);
-
-        $email = Email::find($id);
-        $email->para = $request->para;
-        $email->assunto = $request->assunto;
-        $email->conteudo = $request->conteudo;
-        $email->save();
-
-        return redirect()->route('email.index')->with('status', 'Email alterado com sucesso!');
     }
 
     public function destroy(string $id)
