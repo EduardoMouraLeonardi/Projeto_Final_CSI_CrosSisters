@@ -23,7 +23,8 @@
 
   <tr>
     <th>ID</th>
-    <th>Para</th>
+    <th>Nome</th>
+    <th>Email</th>
     <th>Assunto</th>
     <th>Conteúdo</th>
     <th>Ações</th>
@@ -34,13 +35,12 @@
 
   <tr>
     <td>{{ $email->id }}</td>
-    <td>{{ $email->para }}</td>
+    <td>{{ $email->nome }}</td>
+    <td>{{ $email->email2 }}</td>
     <td>{{ $email->assunto }}</td>
     <td>{{ $email->conteudo }}</td>
     <td>
         <a class="btn btn-info" href="{{ url('/email/' . $email->id) }}">Visualizar</a>
-        
-        <a class="btn btn-success" href="{{ url('/email/' . $email->id . '/edit') }}">Editar</a>
 
         <form method="POST" action="{{ url('/email/' . $email->id) }}" onsubmit = "return ConfirmDelete()">
           @method('DELETE')
