@@ -66,10 +66,10 @@ Route::middleware(['can:is_admin'])->group(function () {
 
     Route::get('/email/{id}', [EmailController::class, 'show']);
 
-    Route::get('/email/{id}/edit', [EmailController::class, 'edit']);
-    Route::put('/email/{id}', [EmailController::class, 'update']);
-
     Route::delete('/email/{id}/', [EmailController::class, 'destroy']);
+    
+
+    // CONTATO
 
 });
 
