@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('emails', function (Blueprint $table) {
             $table->id();
-            $table->string('para');
+            $table->string('nome');
+            $table->string('email2');
             $table->string('assunto');
             $table->string('conteudo');
             $table->timestamps();
