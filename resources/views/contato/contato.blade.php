@@ -13,16 +13,16 @@
 							<form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Nome" />
+										<input type="text" name="nome" id="nome" placeholder="Nome" />
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email2" id="email2" placeholder="Email" />
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Assunto" />
+										<input type="text" name="assunto" id="assunto" placeholder="Assunto" />
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Messagem"></textarea>
+										<textarea name="conteudo" id="conteudo" placeholder="Messagem"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
