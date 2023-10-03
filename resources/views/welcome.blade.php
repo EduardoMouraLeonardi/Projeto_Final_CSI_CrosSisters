@@ -53,49 +53,96 @@
 	<div class="container">
 	<div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center">
 
-  <div class="col card border-danger mb-3" style="max-width: 18rem;">
-    <div class="card">
+  <div class="col card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card-body">
       <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class="btn btn-success">Comprar</a>
       </div>
     </div>
   </div>
 
-  <div class="col card border-danger mb-3" style="max-width: 18rem;">
-    <div class="card">
+  <div class="col card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card-body">
       <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class="btn btn-success">Comprar</a>
       </div>
     </div>
   </div>
 
-  <div class="col card border-danger mb-3" style="max-width: 18rem;">
-    <div class="card">
+  <div class="col card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card-body">
       <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class="btn btn-success">Comprar</a>
       </div>
     </div>
   </div>
 
-  <div class="col card border-danger mb-3" style="max-width: 18rem;">
-    <div class="card">
+  <div class="col card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card-body">
       <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class="btn btn-success">Comprar</a>
       </div>
     </div>
   </div>
+																<!-- fim do card-->
+
+
+                                
+<!-- CARD SEPARADO -->
+
+
+<div class="row">
+  <div class="col-sm-6.5 mb-3 mb-sm-0" >
+    <div class="card">
+      <div class="card-body">
+      <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6.5">
+    <div class="card">
+      <div class="card-body">
+      <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6.5 mb-3 mb-sm-0" >
+    <div class="card">
+      <div class="card-body">
+      <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6.5">
+    <div class="card">
+      <div class="card-body">
+      <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- FIM DO CARD SEPARADO -->
 
 </div>
 <br>
-																<!-- fim do card-->
+
 
 
 @endsection

@@ -14,9 +14,7 @@
 				h1{
 					text-align:center;
 				}
-				body{
-					background-color: #FFF;
-				}
+				
 			</style>
 	</head>
 	<body class="is-preload">
@@ -27,7 +25,8 @@
 					<li><a href="{{ url('/') }}">Welcome</a></li>
 					<li><a href="{{ url('/listaDeProdutos') }}">Produtos</a></li>
 					<li><a href="{{ url('/contato') }}">Contato</a></li>
-					<li><a href="{{ url('/login') }}">Login</a></li>
+					<li><a href="{{ url('/login') }}"></i>Login</a></li>
+				
 				</ul>
 			</nav>
         
