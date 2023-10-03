@@ -53,8 +53,9 @@ Route::middleware(['can:is_admin'])->group(function () {
 
     Route::delete('/produto/{id}', [ProdutoController::class, 'destroy']);
 
-    Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
-    Route::get('/contato', [HomeController::class, 'contato']);
+    //Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
+
+    //Route::get('/contato', [HomeController::class, 'contato']);
 
 
     // EMAIL
@@ -62,16 +63,20 @@ Route::middleware(['can:is_admin'])->group(function () {
     Route::get('/email', [EmailController::class, 'index'])->name('email.index');
 
     Route::get('/email/create', [EmailController::class, 'create']);
-    Route::post('/email/create', [EmailController::class, 'store']);
+    //Route::post('/email/create', [EmailController::class, 'store']);
 
     Route::get('/email/{id}', [EmailController::class, 'show']);
 
     Route::delete('/email/{id}/', [EmailController::class, 'destroy']);
-    
-
-    // CONTATO
 
 });
+
+    Route::post('/email/create', [EmailController::class, 'store']);
+
+    Route::get('/contato', [HomeController::class, 'contato'])->name('contato');
+
+    Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
+    
 
 // HOME
 

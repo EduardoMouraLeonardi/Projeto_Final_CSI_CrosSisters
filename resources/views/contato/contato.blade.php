@@ -9,8 +9,17 @@
 						<h2>Bem-vindos ao site CrosSisters</h2>
 					</header>
 					<div class="row">
+
+					@if (session('status'))
+						<div class="alert alert-success">
+							{{ session('status') }}
+						</div>
+					@endif
+
 						<div class="col-12">
-							<form method="post" action="#">
+							<form method="POST" action="{{ url('/email/create') }}">
+
+							@csrf
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="nome" id="nome" placeholder="Nome" />
