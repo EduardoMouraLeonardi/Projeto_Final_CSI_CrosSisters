@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'CrosSisters',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Cros</b>Sisters',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -328,19 +328,19 @@ return [
         [
             'text' => 'Produto',
             'url'  => 'produto',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fa fa-shopping-bag',
             'can'  => 'is_admin',
         ],
         [
             'text' => 'Categoria',
             'url'  => 'categoria',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'nav-icon fas fa-table',
             'can'  => 'is_admin',
         ],
         [
             'text' => 'Emails',
             'url'  => 'email',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'nav-icon far fa-envelope',
             'can'  => 'is_admin',
         ],
         [
