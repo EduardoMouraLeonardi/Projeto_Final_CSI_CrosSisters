@@ -5,17 +5,23 @@
 
 <h2>Paginas<h2><br>
 
-<table>
+<table class="table table-bordered">
 
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+  <tr class="table-active">
+    <th>Pagina</th>
+    <th>Ações</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Pagina Inicial</td>
+    <td><a class="btn btn-primary" href="{{ url('/') }}">Visualizar</a></td>
+  </tr>
+  <tr>
+    <td>Produtos</td>
+    <td><a class="btn btn-primary" href="{{ url('/listaDeProdutos') }}">Visualizar</a></td>
+  </tr>
+  <tr>
+    <td>Contatos</td>
+    <td><a class="btn btn-primary" href="{{ url('/contato') }}">Visualizar</a></td>
   </tr>
 
 </table>
