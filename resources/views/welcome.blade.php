@@ -99,7 +99,7 @@
 																<!-- fim do card-->
 
 
-                                
+
 <!-- CARD SEPARADO -->
 
 
