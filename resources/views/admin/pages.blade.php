@@ -4,8 +4,7 @@
 <div class="container">
 
 <h2>Paginas<h2><br>
-
-<table class="table table-bordered">
+<table class="table table-bordered table-hover">
 
   <tr class="table-active">
     <th>Pagina</th>
@@ -25,6 +24,5 @@
   </tr>
 
 </table>
-
 </div>
 @endsection
