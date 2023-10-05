@@ -19,9 +19,9 @@
   }
 </script>
 
-<table class="table table-striped table-hover">
+<table class="table table-bordered table-hover">
 
-  <tr>
+  <tr class="table-active">
     <th>ID</th>
     <th>Nome</th>
     <th>Ações</th>

@@ -5,7 +5,7 @@
 
 <h2>Produtos<h2>
 @can('is_admin')
-<a class="btn btn-success" href="{{url('/produto/create')}}">Criar</a><br>
+<a class="btn btn-primary" href="{{url('/produto/create')}}">Criar Produto</a><br>
 @endcan
 
 <script>
@@ -21,7 +21,7 @@
 @endif
 
 <table class="table table-bordered table-hover">
-  <tr>
+  <tr class="table-active">
     <th>Id</th>
     <th>Categoria</th>
     <th>Nome</th>
