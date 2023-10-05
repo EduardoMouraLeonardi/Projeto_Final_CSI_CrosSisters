@@ -20,20 +20,26 @@
 	<body class="is-preload">
 
 																		<!-- Navbar -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="{{ url('/') }}">Welcome</a></li>
-					<li><a href="{{ url('/listaDeProdutos') }}">Produtos</a></li>
-					<li><a href="{{ url('/contato') }}">Contato</a></li>
-					<li><a href="{{ url('/login') }}"></i>Login</a></li>
-				
-				</ul>
-			</nav>
+													
+	<nav id="nav">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="{{ url('/') }}">
+		<img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ url('/') }}">Welcome</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ url('/listaDeProdutos') }}">Produtos</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ url('/contato') }}">Contato</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Carrinho</a>
+		<a class="py-2 d-none d-md-inline-block" href="{{ url('/login') }}"></i>Login</a>
+      </div>
+    </nav>
+
         
             <div class="container">
             @yield('content')
         </div>
 																		<!-- fim do Navbar -->
+
 
                     <!-- Scripts -->
 			<script src="{{ url('assets/js/jquery.min.js') }}"></script>
