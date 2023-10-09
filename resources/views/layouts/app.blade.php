@@ -29,7 +29,7 @@
         <a class="py-2 d-none d-md-inline-block" href="{{ url('/') }}">Welcome</a>
         <a class="py-2 d-none d-md-inline-block" href="{{ url('/listaDeProdutos') }}">Produtos</a>
         <a class="py-2 d-none d-md-inline-block" href="{{ url('/contato') }}">Contato</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Carrinho</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{ url('/carrinho') }}">Carrinho</a>
 		<a class="py-2 d-none d-md-inline-block" href="{{ url('/login') }}"></i>Login</a>
       </div>
     </nav>
