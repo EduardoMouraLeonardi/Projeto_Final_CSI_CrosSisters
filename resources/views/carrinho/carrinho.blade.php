@@ -6,10 +6,10 @@
 
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="d-flex justify-content-between align-items-center mb-3">
             <span class="text-muted">Seu carrinho</span>
             <span class="badge badge-secondary badge-pill">3</span>
-          </h4>
+          </h2>
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
@@ -53,9 +53,10 @@
               </div>
             </div>
           </form>
+
         </div>
         <div class="col-md-8 order-md-1">
-          <h4 class="mb-3">Endereço de cobrança</h4>
+          <h2 class="mb-3">Endereço de cobrança</h2>
           <form class="needs-validation" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
@@ -75,7 +76,7 @@
             </div>
 
             <div class="mb-3">
-              <label for="nickname">Nickname</label>
+              <label for="nickname">Nome de Usuário</label>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">@</span>
@@ -89,7 +90,7 @@
 
             <div class="mb-3">
               <label for="email">Email <span class="text-muted">(Opcional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="fulano@exemplo.com">
+              <input type="email" class="form-control" id="email" placeholder="email@email.com">
               <div class="invalid-feedback">
                 Por favor, insira um endereço de e-mail válido, para atualizações de entrega.
               </div>
@@ -112,7 +113,7 @@
               <div class="col-md-5 mb-3">
                 <label for="pais">País</label>
                 <select class="custom-select d-block w-100" id="pais" required>
-                  <option value="">Escolha...</option>
+                  <option value="">Nenhum</option>
                   <option>Brasil</option>
                 </select>
                 <div class="invalid-feedback">
@@ -122,7 +123,7 @@
               <div class="col-md-4 mb-3">
                 <label for="estado">Estado</label>
                 <select class="custom-select d-block w-100" id="estado" required>
-                  <option value="">Escolha...</option>
+                  <option value="">Nenhum</option>
                   <option>Acre</option>
                 </select>
                 <div class="invalid-feedback">
@@ -131,37 +132,37 @@
               </div>
               <div class="col-md-3 mb-3">
                 <label for="cep">CEP</label>
-                <input type="text" class="form-control" id="cep" placeholder="" required>
+                <input type="text" class="form-control" id="cep" placeholder="XXXXX-XXXX" required>
                 <div class="invalid-feedback">
                   É obrigatório inserir um CEP.
                 </div>
               </div>
             </div>
             <hr class="mb-4">
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="mesmo-endereco">
-              <label class="custom-control-label" for="mesmo-endereco">Endereço de entrega é o mesmo que o de cobrança.</label>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="mesmo-endereco">
+              <label class="form-check-label" for="mesmo-endereco">Endereço de entrega é o mesmo que o de cobrança.</label>
             </div>
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="salvar-info">
-              <label class="custom-control-label" for="salvar-info">Lembrar desta informação, na próxima vez.</label>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="salvar-info">
+              <label class="form-check-label" for="salvar-info">Lembrar desta informação, na próxima vez.</label>
             </div>
             <hr class="mb-4">
 
             <h4 class="mb-3">Pagamento</h4>
 
             <div class="d-block my-3">
-              <div class="custom-control custom-radio">
-                <input id="credito" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                <label class="custom-control-label" for="credito">Cartão de crédito</label>
+              <div class="form-check">
+                <input id="credito" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="credito">Cartão de crédito</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="debito" name="paymentMethod" type="radio" class="custom-control-input" required>
-                <label class="custom-control-label" for="debito">Cartão de débito</label>
+              <div class="form-check">
+                <input id="debito" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="debito">Cartão de débito</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                <label class="custom-control-label" for="paypal">PayPal</label>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="paypal">PayPal</label>
               </div>
             </div>
             <div class="row">
