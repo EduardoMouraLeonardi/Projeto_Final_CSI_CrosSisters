@@ -81,9 +81,9 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text">@</span>
                 </div>
-                <input type="text" class="form-control" id="nickname" placeholder="Nickname" required>
+                <input type="text" class="form-control" id="nickname" placeholder="" required>
                 <div class="invalid-feedback" style="width: 100%;">
-                  Seu nickname é obrigatório.
+                  Seu nome de usuário é obrigatório.
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@
 
             <div class="mb-3">
               <label for="endereco">Endereço</label>
-              <input type="text" class="form-control" id="endereco" placeholder="Rua dos bobos, nº 0" required>
+              <input type="text" class="form-control" id="endereco" placeholder="Rua e número" required>
               <div class="invalid-feedback">
                 Por favor, insira seu endereço de entrega.
               </div>
