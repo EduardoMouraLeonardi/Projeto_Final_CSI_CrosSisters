@@ -76,7 +76,8 @@ Route::middleware(['can:is_admin'])->group(function () {
     Route::get('/contato', [HomeController::class, 'contato'])->name('contato');
 
     Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
-    
+
+    Route::get('/carrinho', [HomeController::class, 'carrinho'])->name('carrinho');
 
 // HOME
 
