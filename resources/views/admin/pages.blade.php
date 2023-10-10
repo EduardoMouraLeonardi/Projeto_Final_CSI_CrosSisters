@@ -22,6 +22,9 @@
     <td>Contatos</td>
     <td><a class="btn btn-primary" href="{{ url('/contato') }}">Visualizar</a></td>
   </tr>
+    <td>Carrinho</td>
+    <td><a class="btn btn-primary" href="{{ url('/carrinho') }}">Visualizar</a></td>
+  </tr>
 
 </table>
 </div>

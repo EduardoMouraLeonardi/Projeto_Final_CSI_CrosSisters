@@ -7,6 +7,7 @@ use App\Models\Categoria;
 use App\Models\Produto;
 use App\Models\Email;
 use App\Models\Contato;
+use App\Models\Carrinho;
 
 class HomeController extends Controller
 {
@@ -46,5 +47,8 @@ class HomeController extends Controller
     public function contato(){
         return view ('contato.contato');
     }
-
+    
+    public function carrinho(){
+        return view ('carrinho.carrinho');
+    }
 }
