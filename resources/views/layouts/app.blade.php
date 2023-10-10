@@ -26,11 +26,11 @@
         <a class="py-2" href="{{ url('/') }}">
 		<img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"></a>
         <a class=" d-md-inline-block" href="{{ url('/listaDeProdutos') }}">Produtos</a>
-  		<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
   		<a href="{{ url('/contato') }}"><i class="fa fa-envelope-open" aria-hidden="true"></i> Contact</a>
+		<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+		<a class=" d-md-inline-block" href="{{ url('/carrinho') }}"><i class="fa fa-cart-plus" aria-hidden="true"></i> Carrinho</a>
   		<a href="{{ url('/login') }}"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
-		<a class=" d-md-inline-block" href="{{ url('/carrinho') }}"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
-		<a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i>Carrinho</a>
+		
 
 
       </div>

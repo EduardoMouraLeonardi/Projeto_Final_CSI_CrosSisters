@@ -124,7 +124,7 @@
                 <label for="estado">Estado</label>
                 <select class="custom-select d-block w-100" id="estado" required>
                   <option value="">Nenhum</option>
-                  <option>Acre</option>
+                  <option>Rio de Janeiro</option>
                 </select>
                 <div class="invalid-feedback">
                   Por favor, insira um estado válido.
@@ -154,15 +154,15 @@
             <div class="d-block my-3">
               <div class="form-check">
                 <input id="credito" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                <label class="form-check-label" for="credito">Cartão de crédito</label>
+                <label class="form-check-label" for="credito">  Cartão de crédito</label>
               </div>
               <div class="form-check">
                 <input id="debito" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="debito">Cartão de débito</label>
+                <label class="form-check-label" for="debito">  Cartão de débito</label>
               </div>
               <div class="form-check">
                 <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="paypal">PayPal</label>
+                <label class="form-check-label" for="paypal"> Pix</label>
               </div>
             </div>
             <div class="row">
