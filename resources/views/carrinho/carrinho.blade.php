@@ -6,10 +6,10 @@
 
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
-          <h2 class="d-flex justify-content-between align-items-center mb-3">
+          <h3 class="d-flex justify-content-between align-items-center mb-3">
             <span class="text-muted">Seu carrinho</span>
             <span class="badge badge-secondary badge-pill">3</span>
-          </h2>
+          </h3>
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
@@ -56,18 +56,18 @@
 
         </div>
         <div class="col-md-8 order-md-1">
-          <h2 class="mb-3">Endereço de cobrança</h2>
+          <h3 class="mb-3">Endereço de cobrança</h3>
           <form class="needs-validation" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="primeiroNome">Nome</label>
+                <label for="primeiroNome" class="fw-normal">Nome</label>
                 <input type="text" class="form-control" id="primeiroNome" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   É obrigatório inserir um nome válido.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
-                <label for="sobrenome">Sobrenome</label>
+                <label for="sobrenome" class="fw-normal">Sobrenome</label>
                 <input type="text" class="form-control" id="sobrenome" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   É obrigatório inserir um sobre nome válido.
@@ -76,7 +76,7 @@
             </div>
 
             <div class="mb-3">
-              <label for="nickname">Nome de Usuário</label>
+              <label for="nickname" class="fw-normal">Nome de Usuário</label>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">@</span>
@@ -89,29 +89,29 @@
             </div>
 
             <div class="mb-3">
-              <label for="email">Email <span class="text-muted">(Opcional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="email@email.com">
+              <label for="email" class="fw-normal">Email <span class="text-muted">(Opcional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="">
               <div class="invalid-feedback">
                 Por favor, insira um endereço de e-mail válido, para atualizações de entrega.
               </div>
             </div>
 
             <div class="mb-3">
-              <label for="endereco">Endereço</label>
-              <input type="text" class="form-control" id="endereco" placeholder="Rua e número" required>
+              <label for="endereco" class="fw-normal">Endereço</label>
+              <input type="text" class="form-control" id="endereco" placeholder="" required>
               <div class="invalid-feedback">
                 Por favor, insira seu endereço de entrega.
               </div>
             </div>
 
             <div class="mb-3">
-              <label for="endereco2">Endereço 2 <span class="text-muted">(Opcional)</span></label>
-              <input type="text" class="form-control" id="endereco2" placeholder="Apartamento ou casa">
+              <label for="endereco2" class="fw-normal">Endereço 2 <span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="endereco2" placeholder="">
             </div>
 
             <div class="row">
               <div class="col-md-5 mb-3">
-                <label for="pais">País</label>
+                <label for="pais" class="fw-normal">País</label>
                 <select class="custom-select d-block w-100" id="pais" required>
                   <option value="">Nenhum</option>
                   <option>Brasil</option>
@@ -121,7 +121,7 @@
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <label for="estado">Estado</label>
+                <label for="estado" class="fw-normal">Estado</label>
                 <select class="custom-select d-block w-100" id="estado" required>
                   <option value="">Nenhum</option>
                   <option>Acre</option>
@@ -131,8 +131,8 @@
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <label for="cep">CEP</label>
-                <input type="text" class="form-control" id="cep" placeholder="XXXXX-XXXX" required>
+                <label for="cep" class="fw-normal">CEP</label>
+                <input type="text" class="form-control" id="cep" placeholder="" required>
                 <div class="invalid-feedback">
                   É obrigatório inserir um CEP.
                 </div>
@@ -141,11 +141,11 @@
             <hr class="mb-4">
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="mesmo-endereco">
-              <label class="form-check-label" for="mesmo-endereco">Endereço de entrega é o mesmo que o de cobrança.</label>
+              <label class="form-check-label fw-normal" for="mesmo-endereco" >Endereço de entrega é o mesmo que o de cobrança.</label>
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="salvar-info">
-              <label class="form-check-label" for="salvar-info">Lembrar desta informação, na próxima vez.</label>
+              <label class="form-check-label fw-normal" for="salvar-info">Lembrar desta informação, na próxima vez.</label>
             </div>
             <hr class="mb-4">
 
@@ -154,20 +154,20 @@
             <div class="d-block my-3">
               <div class="form-check">
                 <input id="credito" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                <label class="form-check-label" for="credito">Cartão de crédito</label>
+                <label class="form-check-label fw-normal" for="credito">Cartão de crédito</label>
               </div>
               <div class="form-check">
                 <input id="debito" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="debito">Cartão de débito</label>
+                <label class="form-check-label fw-normal" for="debito">Cartão de débito</label>
               </div>
               <div class="form-check">
                 <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="paypal">PayPal</label>
+                <label class="form-check-label fw-normal" for="paypal">PayPal</label>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="cc-nome">Nome no cartão</label>
+                <label for="cc-nome" class="fw-normal">Nome no cartão</label>
                 <input type="text" class="form-control" id="cc-nome" placeholder="" required>
                 <small class="text-muted">Nome completo, como mostrado no cartão.</small>
                 <div class="invalid-feedback">
@@ -175,7 +175,7 @@
                 </div>
               </div>
               <div class="col-md-6 mb-3">
-                <label for="cc-numero">Número do cartão de crédito</label>
+                <label for="cc-numero" class="fw-normal">Número do cartão de crédito</label>
                 <input type="text" class="form-control" id="cc-numero" placeholder="" required>
                 <div class="invalid-feedback">
                   O número do cartão de crédito é obrigatório.
@@ -184,14 +184,14 @@
             </div>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <label for="cc-expiracao">Data de expiração</label>
+                <label for="cc-expiracao" class="fw-normal">Data de expiração</label>
                 <input type="text" class="form-control" id="cc-expiracao" placeholder="" required>
                 <div class="invalid-feedback">
                   Data de expiração é obrigatória.
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <label for="cc-cvv">CVV</label>
+                <label for="cc-cvv" class="fw-normal">CVV</label>
                 <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
                 <div class="invalid-feedback">
                   Código de segurança é obrigatório.
