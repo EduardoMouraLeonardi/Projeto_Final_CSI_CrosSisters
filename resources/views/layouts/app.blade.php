@@ -30,7 +30,8 @@
 		<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
 		<a class=" d-md-inline-block" href="{{ url('/carrinho') }}"><i class="fa fa-cart-plus" aria-hidden="true"></i> Carrinho</a>
   		<a href="{{ url('/login') }}"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
-		
+		<a class=" d-md-inline-block" href="{{ url('/carrinho') }}"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+
 
 
       </div>
