@@ -163,17 +163,8 @@
               <div class="form-check">
                 <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
                 <label class="form-check-label" for="paypal"> Pix</label>
-                <label class="form-check-label fw-normal" for="credito">Cartão de crédito</label>
-              </div>
-              <div class="form-check">
-                <input id="debito" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label fw-normal" for="debito">Cartão de débito</label>
-              </div>
-              <div class="form-check">
-                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label fw-normal" for="paypal">PayPal</label>
-              </div>
             </div>
+
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="cc-nome" class="fw-normal">Nome no cartão</label>
@@ -213,14 +204,7 @@
         </div>
       </div>
 
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Nome da companhia</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacidade</a></li>
-          <li class="list-inline-item"><a href="#">Termos</a></li>
-          <li class="list-inline-item"><a href="#">Suporte</a></li>
-        </ul>
-      </footer>
+      
     </div>
 
     <!-- Principal JavaScript do Bootstrap
@@ -253,6 +237,19 @@
         }, false);
       })();
     </script>
+
+<footer class="my-5 pt-5 text-muted text-center text-small">
+        <ul class="social"><br>
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/crossisters.rs/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=5551999982535&text&type=phone_number&app_absent=0" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a>
+							</li>
+							
+	<ul id="copyright">
+		<li>&copy; Endereço loja Física: Avenida Getúlio Vargas, 3663 Canoas/RS</li> <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+	</ul>
+      </footer>
   </body>
 </html>
 @endsection
