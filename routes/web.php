@@ -6,6 +6,8 @@ use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\EmailController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\PedidoController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -69,6 +71,22 @@ Route::middleware(['can:is_admin'])->group(function () {
 
     Route::delete('/email/{id}/', [EmailController::class, 'destroy']);
 
+
+    // PEDIDO
+
+    Route::get('/pedido', [PedidoController::class, 'index'])->name('pedido.index');
+
+    Route::get('/pedido/create', [PedidoController::class, 'create']);
+    Route::post('/pedido/create', [PedidoController::class, 'store']);
+
+    Route::get('/pedido/{id}', [PedidoController::class, 'show']);
+
+    Route::get('/pedido/{id}/edit', [PedidoController::class, 'edit']);
+    Route::put('/pedido/{id}', [PedidoController::class, 'update']);
+
+    Route::delete('/pedido/{id}', [PedidoController::class, 'destroy']);
+
+
 });
 
     Route::post('/email/create', [EmailController::class, 'store']);
@@ -78,6 +96,7 @@ Route::middleware(['can:is_admin'])->group(function () {
     Route::get('/listaDeProdutos', [ProdutoController::class, 'listaDeProdutos']);
 
     Route::get('/carrinho', [HomeController::class, 'carrinho'])->name('carrinho');
+
 
 // HOME
 
