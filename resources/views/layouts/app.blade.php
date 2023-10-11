@@ -23,7 +23,7 @@
 													
 	<nav id="nav">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="{{ url('/') }}">
+        <a href="{{ url('/') }}">
 		<img src="{{url('images\Logo_CrosSisters-removebg-preview (1).png')}}" alt="" width="45" height="45"></a>
         <a class=" d-md-inline-block" href="{{ url('/listaDeProdutos') }}">Produtos</a>
   		<a href="{{ url('/contato') }}"><i class="fa fa-envelope-open" aria-hidden="true"></i> Contact</a>
