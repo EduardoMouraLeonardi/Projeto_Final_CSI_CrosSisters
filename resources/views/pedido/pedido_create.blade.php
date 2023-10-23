@@ -19,8 +19,14 @@
     
     @csrf
 
-  <label class="form-label" for="nome">Nome:</label><br>
-  <input class="form-control" type="text" id="nome" name="nome"><br>
+  <label class="form-label" for="nome">Número:</label><br>
+  <input class="form-control" type="number" id="numero" name="numero"><br>
+
+  <label class="form-label" for="nome">Status:</label><br>
+  <input class="form-control" type="text" id="status" name="status"><br>
+
+  <label class="form-label" for="nome">Produtos:</label><br>
+  <input class="form-control" type="text" id="produtosVinc" name="produtosVinc"><br>
 
   <input type="submit" value="Enviar">
 

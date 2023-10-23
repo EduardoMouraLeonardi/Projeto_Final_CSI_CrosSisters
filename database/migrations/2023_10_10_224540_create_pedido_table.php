@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('pedido', function (Blueprint $table) {
             $table->id();
-            $table->string('nome');
+            $table->integer('numero');
+            $table->string('status');
+            $table->string('produtosVinc');
             $table->timestamps();
         });
     }

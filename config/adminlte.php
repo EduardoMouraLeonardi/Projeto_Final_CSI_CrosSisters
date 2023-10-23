@@ -338,6 +338,12 @@ return [
             'can'  => 'is_admin',
         ],
         [
+            'text' => 'Pedidos',
+            'url'  => 'pedido',
+            'icon' => 'nav-icon far fa-envelope',
+            'can'  => 'is_admin',
+        ],
+        [
             'text' => 'Emails',
             'url'  => 'email',
             'icon' => 'nav-icon far fa-envelope',
