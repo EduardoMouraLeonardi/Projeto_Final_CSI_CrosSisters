@@ -27,7 +27,6 @@
 		<img src="{{url('images\Logo_CrosSisters-removebg-preview (1).png')}}" alt="" width="45" height="45"></a>
         <a class=" d-md-inline-block" href="{{ url('/listaDeProdutos') }}">Produtos</a>
   		<a href="{{ url('/contato') }}"><i class="fa fa-envelope-open" aria-hidden="true"></i> Contact</a>
-		<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
 		<a class=" d-md-inline-block" href="{{ url('/carrinho') }}"><i class="fa fa-cart-plus" aria-hidden="true"></i> Carrinho</a>
   		<a href="{{ url('/login') }}"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
       </div>
