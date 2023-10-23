@@ -25,9 +25,5 @@ class CategoriaSeeder extends Seeder
             'nome' => 'Leggings',
         ]);
 
-        DB::table('categoria')->insert([
-            'nome' => 'Blusão',
-        ]);
-
     }
 }
