@@ -23,7 +23,9 @@
 
   <tr class="table-active">
     <th>ID</th>
-    <th>Nome</th>
+    <th>Número</th>
+    <th>Status</th>
+    <th>Produtos</th>
     <th>Ações</th>
   </tr>
 
@@ -31,7 +33,9 @@
 
   <tr>
     <td>{{ $pedido->id }}</td>
-    <td>{{ $pedido->nome }}</td>
+    <td>{{ $pedido->numero }}</td>
+    <td>{{ $pedido->status }}</td>
+    <td>{{ $pedido->produtosVinc }}</td>
     <td>
         <a class="btn btn-info" href="{{ url('/pedido/' . $pedido->id) }}">Visualizar</a>
         
