@@ -17,9 +17,9 @@
     <div class="container p-5 my-5 border">
     <form>
         <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome"><br>
+        <input type="text" id="nome" name="nome" value="{{ $user->name }}"><br>
         <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email"  value="{{ $user->email }}"><br>
         <input type="button" value="Trocar Senha">
     </form>
     </div>
