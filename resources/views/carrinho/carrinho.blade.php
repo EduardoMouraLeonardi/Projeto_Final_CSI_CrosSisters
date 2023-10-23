@@ -4,8 +4,8 @@
 
   <body class="bg-light">
 
-      <div class="row">
-        <div class="col-md-4 order-md-2 mb-4">
+      <div class="row" >
+        <div class="col-md-4 order-md-2 mb-4 wrapper style3">
           <h3 class="d-flex justify-content-between align-items-center mb-3">
             <span class="text-muted">Seu carrinho</span>
             <span class="badge badge-secondary badge-pill">3</span>
@@ -55,7 +55,7 @@
           </form>
 
         </div>
-        <div class="col-md-8 order-md-1">
+        <div class="col-md-8 order-md-1" >
           <h3 class="mb-3">Endereço de cobrança</h3>
           <form class="needs-validation" novalidate>
             <div class="row">
@@ -238,7 +238,7 @@
       })();
     </script>
 
-<footer class="my-5 pt-5 text-muted text-center text-small">
+<footer class="my-5 pt-5 text-muted text-center text-small wrapper style3">
         <ul class="social"><br>
 								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
