@@ -15,7 +15,10 @@
 
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								
+								@isset($produto->path)
+								 	<a href="#" class="image featured"><img src="{{ url('/storage/' . $produto->path) }}" alt="" /></a>
+								@endisset
 								<h3><a href="#">{{ $produto ->nome }}</a></h3>
 								<p>R$ {{ $produto->preco }}</p>
 							</article>
