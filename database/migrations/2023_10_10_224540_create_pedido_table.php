@@ -14,9 +14,6 @@ return new class extends Migration
         Schema::create('pedido', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('email2');
-            $table->string('assunto');
-            $table->string('conteudo');
             $table->timestamps();
         });
     }
