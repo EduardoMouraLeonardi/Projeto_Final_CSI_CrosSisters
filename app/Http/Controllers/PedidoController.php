@@ -23,15 +23,21 @@ class PedidoController extends Controller
         //dd($request->all());
 
         $messages = [
-            'nome.required' => 'O :attribute é obrigatório.',
+            'numero.required' => 'O número do pedido é obrigatório.',
+            'status.required' => 'O :attribute é obrigatório.',
+            'produtosVinc.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
-            'nome' => 'required|min:5',
+            'numero' => 'required|min:5',
+            'status' => 'required',
+            'produtosVinc' => 'required',
         ], $messages);
 
         $pedido = new Pedido();
-        $pedido->nome = $request->nome;
+        $pedido->numero = $request->numero;
+        $pedido->status = $request->status;
+        $pedido->produtosVinc = $request->produtosVinc;
         $pedido->save();
 
         return redirect()->route('pedido.index')->with('status', 'Pedido criado com sucesso!');
@@ -53,15 +59,21 @@ class PedidoController extends Controller
     public function update(Request $request, string $id)
     {
         $messages = [
-            'nome.required' => 'O :attribute é obrigatório.',
+            'numero.required' => 'O número do pedido é obrigatório.',
+            'status.required' => 'O :attribute é obrigatório.',
+            'produtosVinc.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
-            'nome' => 'required|min:5',
+            'numero' => 'required|min:5',
+            'status' => 'required',
+            'produtosVinc' => 'required',
         ], $messages);
 
         $pedido = Pedido::find($id);
-        $pedido->pedido = $request->nome;
+        $pedido->numero = $request->numero;
+        $pedido->status = $request->status;
+        $pedido->produtosVinc = $request->produtosVinc;
         $pedido->save();
 
         return redirect()->route('pedido.index')->with('status', 'Pedido alterado com sucesso!');
