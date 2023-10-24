@@ -22,11 +22,24 @@
   <label class="form-label" for="nome">Número:</label><br>
   <input class="form-control" type="number" id="numero" name="numero"><br>
 
-  <label class="form-label" for="nome">Status:</label><br>
-  <input class="form-control" type="text" id="status" name="status"><br>
+  <label  class="form-label" for="nome">Status de Pedido:</label><br>
+  <select class="form-control" name="status" id="status"><br>
 
-  <label class="form-label" for="nome">Produtos:</label><br>
-  <input class="form-control" type="text" id="produtosVinc" name="produtosVinc"><br>
+    <option value="1">Pedido realizado</option>
+    <option value="2">Pagamento confirmado</option>
+    <option value="3">Pedido enviado</option>
+    <option value="4">Pedido entregue</option>
+
+  </select><br>
+
+  <label class="form-label" for="nome">Produtos Vinculados:</label><br>
+  <select class="form-control" name="produto_id" id="produto_id">
+
+@foreach ($produtos as $produto)
+    <option value="{{$produto->id}}">{{$produto->nome}}</option>
+@endforeach
+
+  </select>
 
   <input type="submit" value="Enviar">
 
