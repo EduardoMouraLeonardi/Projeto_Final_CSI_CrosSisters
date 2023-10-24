@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 
-<h1>Formulario de Edição</h1><br>
+<h1>Formulário de Edição</h1><br>
 
 @if ($errors->any())
     <div class="alert alert-danger">
