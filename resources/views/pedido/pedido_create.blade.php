@@ -39,7 +39,7 @@
     <option value="{{$produto->id}}">{{$produto->nome}}</option>
 @endforeach
 
-  </select>
+  </select><br>
 
   <input type="submit" value="Enviar">
 
