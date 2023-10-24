@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('numero');
             $table->string('status');
             $table->string('produtosVinc');
+            $table->bigInteger('produto_id');
             $table->timestamps();
         });
     }
