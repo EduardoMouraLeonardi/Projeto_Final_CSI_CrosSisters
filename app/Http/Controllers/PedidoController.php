@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Pedido;
+use App\Models\Produto;
+
 
 class PedidoController extends Controller
 {
@@ -15,7 +17,8 @@ class PedidoController extends Controller
 
     public function create()
     {
-        return view('pedido.pedido_create');
+        $produtos = Produto::orderBy('nome','ASC')->get();
+        return view('pedido.pedido_create', ['produtos'=> $produtos]);
     }
 
     public function store(Request $request)
@@ -26,18 +29,21 @@ class PedidoController extends Controller
             'numero.required' => 'O número do pedido é obrigatório.',
             'status.required' => 'O :attribute é obrigatório.',
             'produtosVinc.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
+            'produtos_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
             'numero' => 'required|min:5',
             'status' => 'required',
             'produtosVinc' => 'required',
+            'produto_id' => 'required',
         ], $messages);
 
         $pedido = new Pedido();
         $pedido->numero = $request->numero;
         $pedido->status = $request->status;
         $pedido->produtosVinc = $request->produtosVinc;
+        $pedido->produto_id = $request->produto_id;
         $pedido->save();
 
         return redirect()->route('pedido.index')->with('status', 'Pedido criado com sucesso!');
@@ -62,18 +68,21 @@ class PedidoController extends Controller
             'numero.required' => 'O número do pedido é obrigatório.',
             'status.required' => 'O :attribute é obrigatório.',
             'produtosVinc.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
+            'produtos_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
             'numero' => 'required|min:5',
             'status' => 'required',
             'produtosVinc' => 'required',
+            'produto_id' => 'required',
         ], $messages);
 
         $pedido = Pedido::find($id);
         $pedido->numero = $request->numero;
         $pedido->status = $request->status;
         $pedido->produtosVinc = $request->produtosVinc;
+        $pedido->produto_id = $request->produto_id;
         $pedido->save();
 
         return redirect()->route('pedido.index')->with('status', 'Pedido alterado com sucesso!');
