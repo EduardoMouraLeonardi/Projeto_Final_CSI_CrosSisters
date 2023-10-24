@@ -28,7 +28,7 @@ class PedidoController extends Controller
         $messages = [
             'numero.required' => 'O número do pedido é obrigatório.',
             'status.required' => 'O :attribute é obrigatório.',
-            'produtos_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
+            'produto_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
@@ -64,7 +64,7 @@ class PedidoController extends Controller
         $messages = [
             'numero.required' => 'O número do pedido é obrigatório.',
             'status.required' => 'O :attribute é obrigatório.',
-            'produtos_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
+            'produto_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
