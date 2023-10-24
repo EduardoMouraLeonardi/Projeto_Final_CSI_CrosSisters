@@ -44,7 +44,7 @@
     
 @endforeach
 
-  </select>
+  </select><br>
 
   <input type="submit" value="Enviar">
 
