@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 
 @section('content')
-<div class="container">
+<div class="container ">
 
     <h1>Perfil</h1>
     <br>
@@ -14,7 +14,7 @@
     </div>
 
     <div class="col">
-    <div class="container p-5 my-5 border">
+    <div class="container p-5 my-5 border ">
     <form>
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome" value="{{ $user->name }}"><br>

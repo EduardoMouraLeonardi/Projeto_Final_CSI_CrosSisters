@@ -142,9 +142,21 @@
 
 <!-- FIM DO CARD SEPARADO -->
 
+
 </div>
 <br>
 
-
+<footer class="my-5 pt-5 text-muted text-center text-small wrapper style3">
+        <ul class="social"><br>
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/crossisters.rs/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=5551999982535&text&type=phone_number&app_absent=0" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a>
+							</li>
+							
+	<ul id="copyright">
+		<li>&copy; Endereço loja Física: Avenida Getúlio Vargas, 3663 Canoas/RS</li> <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+	</ul>
+      </footer>
 
 @endsection
