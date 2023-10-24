@@ -28,21 +28,18 @@ class PedidoController extends Controller
         $messages = [
             'numero.required' => 'O número do pedido é obrigatório.',
             'status.required' => 'O :attribute é obrigatório.',
-            'produtosVinc.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
             'produtos_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
             'numero' => 'required|min:5',
             'status' => 'required',
-            'produtosVinc' => 'required',
             'produto_id' => 'required',
         ], $messages);
 
         $pedido = new Pedido();
         $pedido->numero = $request->numero;
         $pedido->status = $request->status;
-        $pedido->produtosVinc = $request->produtosVinc;
         $pedido->produto_id = $request->produto_id;
         $pedido->save();
 
@@ -67,21 +64,18 @@ class PedidoController extends Controller
         $messages = [
             'numero.required' => 'O número do pedido é obrigatório.',
             'status.required' => 'O :attribute é obrigatório.',
-            'produtosVinc.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
             'produtos_id.required' => 'Os produtos vinculados ao pedido são obrigatórios.',
         ];
 
         $validated = $request->validate([
             'numero' => 'required|min:5',
             'status' => 'required',
-            'produtosVinc' => 'required',
             'produto_id' => 'required',
         ], $messages);
 
         $pedido = Pedido::find($id);
         $pedido->numero = $request->numero;
         $pedido->status = $request->status;
-        $pedido->produtosVinc = $request->produtosVinc;
         $pedido->produto_id = $request->produto_id;
         $pedido->save();
 
