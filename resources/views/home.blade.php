@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="row justify-content-center">
-        <div class="col-md-8">
+<div class="row justify-content-center ">
+        <div class="col-md-8 ">
             <div class="card">
                 <div class="card-header">{{ __('CrosSisters') }}</div>
 
@@ -51,10 +51,10 @@
 
 <!-- colunas/cards -->
 
-<div class="container">
+<div class="container ">
 
 <div class="row">
-<div class="col-lg-4 col-4">
+<div class="col-lg-4 col-4 ">
 
 <div class="small-box bg-info">
 <div class="inner">
