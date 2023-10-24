@@ -32,7 +32,7 @@ class PedidoController extends Controller
         ];
 
         $validated = $request->validate([
-            'numero' => 'required|min:5',
+            'numero' => 'required',
             'status' => 'required',
             'produto_id' => 'required',
         ], $messages);
