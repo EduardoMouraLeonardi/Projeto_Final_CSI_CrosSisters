@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Models\Pedido;
 use App\Models\Produto;
 
-
 class PedidoController extends Controller
 {
     public function index()
