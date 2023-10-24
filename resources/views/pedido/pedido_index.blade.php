@@ -35,7 +35,7 @@
     <td>{{ $pedido->id }}</td>
     <td>{{ $pedido->numero }}</td>
     <td>{{ $pedido->status }}</td>
-    <td>{{ $pedido->produtosVinc }}</td>
+    <td>{{ $pedido->produto_id }}</td>
     <td>
         <a class="btn btn-info" href="{{ url('/pedido/' . $pedido->id) }}">Visualizar</a>
         

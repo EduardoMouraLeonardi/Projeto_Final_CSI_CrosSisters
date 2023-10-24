@@ -23,7 +23,7 @@
   <input class="form-control" type="number" id="{{ $pedido->numero }}" name="numero"><br>
 
   <label  class="form-label" for="nome">Status de Pedido:</label><br>
-  <select class="form-control" name="status" id="{{ $pedio->status }}"><br>
+  <select class="form-control" name="status" id="{{ $pedido->status }}"><br>
 
     <option value="1">Pedido realizado</option>
     <option value="2">Pagamento confirmado</option>
