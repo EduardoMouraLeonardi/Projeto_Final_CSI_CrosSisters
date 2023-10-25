@@ -55,7 +55,8 @@ class PedidoController extends Controller
     public function edit(string $id)
     {
         $pedido = Pedido::find($id);
-        return view('pedido.pedido_edit', ['pedido' => $pedido]);
+        $produtos = Produto::orderBy('nome','ASC')->get();
+        return view('pedido.pedido_edit', ['pedido' => $pedido ,'produtos'=> $produtos]);
     }
 
     public function update(Request $request, string $id)
@@ -67,7 +68,7 @@ class PedidoController extends Controller
         ];
 
         $validated = $request->validate([
-            'numero' => 'required|min:5',
+            'numero' => 'required',
             'status' => 'required',
             'produto_id' => 'required',
         ], $messages);
