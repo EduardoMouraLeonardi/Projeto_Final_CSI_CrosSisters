@@ -35,7 +35,12 @@
     <td>{{ $pedido->id }}</td>
     <td>{{ $pedido->numero }}</td>
     <td>{{ $pedido->status }}</td>
-    <td>{{ $pedido->produto_id }}</td>
+
+    <td>@foreach ($pedido->produtos as $item)
+      <p>{{$item->id}}-{{$item->nome}}</p>
+    @endforeach
+    
+    </td>
     <td>
         <a class="btn btn-info" href="{{ url('/pedido/' . $pedido->id) }}">Visualizar</a>
         
