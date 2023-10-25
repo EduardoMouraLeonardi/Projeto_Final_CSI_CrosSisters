@@ -15,27 +15,27 @@
     </div>
 @endif
 
-<form method="POST" action="{{ url('/pedido/create') }}">
-    
+<form method="POST" action="{{ url('/pedido/' . $pedido->id) }}">
+    @method('PUT')
     @csrf
 
   <label class="form-label" for="nome">Número:</label><br>
-  <input class="form-control" type="number" id="{{ $pedido->numero }}" name="numero"><br>
+  <input class="form-control" name="numero" type="number" id="{{ $pedido->numero }}"><br>
 
   <label  class="form-label" for="nome">Status de Pedido:</label><br>
   <select class="form-control" name="status" id="{{ $pedido->status }}"><br>
 
-    <option value="1">Pedido realizado</option>
-    <option value="2">Pagamento confirmado</option>
-    <option value="3">Pedido enviado</option>
-    <option value="4">Pedido entregue</option>
+    <option value="Pedido realizado">Pedido realizado</option>
+    <option value="Pagamento confirmado">Pagamento confirmado</option>
+    <option value="Pedido enviado">Pedido enviado</option>
+    <option value="Pedido entregue">Pedido entregue</option>
 
   </select><br>
 
-  <label class="form-label" for="nome">Produtos Vinculados:</label><br>
-  <select class="form-control" name="produto_id" id="{{ $pedido->nome }}">
+<label class="form-label" for="nome">Produtos Vinculados:</label><br>
+<select class="form-control" name="produto_id" id="produto_id">
 
-  @foreach ($produtos as $produto)
+@foreach ($produtos as $produto)
     @if ($produto->id == $pedido->produto_id)
         <option value="{{$produto->id}}" selected>{{$produto->nome}}</option>
     @else
@@ -44,7 +44,7 @@
     
 @endforeach
 
-  </select><br>
+</select><br>
 
   <input type="submit" value="Enviar">
 
