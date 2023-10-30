@@ -98,7 +98,6 @@
     </div>
   </div>
 </div>
-
 																<!-- fim do card-->
 
                                 <div class="row">
@@ -164,7 +163,7 @@
 
 
 <!-- FIM DO CARD SEPARADO -->
-
+  <a class="btn-fixed" href="{{ url('/') }}">voltar ao inicio</a>
 
 </div>
 <br>
