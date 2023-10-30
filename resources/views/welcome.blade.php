@@ -50,7 +50,6 @@
 
         <h1> Promoções!!! </h1>
 
-  <center>
 																<!-- Card -->
 	<div class="container">
 	<div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center">
@@ -98,7 +97,7 @@
       </div>
     </div>
   </div>
-</center>
+</div>
 																<!-- fim do card-->
 
                                 <div class="row">
@@ -164,7 +163,7 @@
 
 
 <!-- FIM DO CARD SEPARADO -->
-
+  <a class="btn-fixed" href="{{ url('/') }}">voltar ao inicio</a>
 
 </div>
 <br>
