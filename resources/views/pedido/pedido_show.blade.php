@@ -7,8 +7,11 @@
 
 <strong>Número: </strong> {{ $pedido->numero }}<br>
 <strong>Status: </strong> {{ $pedido->status }}<br>
-<strong>Produtos: </strong> {{ $pedido->produto->nome }}<br>
-<strong>Criação: </strong> {{ $pedido->created_at }}<br>
+<strong>Produtos:</strong> {{-- $pedido->produto->nome --}}
+
+@foreach ($pedido->produtos as $item)
+    <p>{{$item->id}}-{{$item->nome}}</p>
+@endforeach
 
 </div>
 @endsection

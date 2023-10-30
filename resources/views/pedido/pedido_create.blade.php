@@ -25,10 +25,10 @@
   <label  class="form-label" for="nome">Status de Pedido:</label><br>
   <select class="form-control" name="status" id="status"><br>
 
-    <option value="1">Pedido realizado</option>
-    <option value="2">Pagamento confirmado</option>
-    <option value="3">Pedido enviado</option>
-    <option value="4">Pedido entregue</option>
+    <option value="Pedido realizado">Pedido realizado</option>
+    <option value="Pagamento confirmado">Pagamento confirmado</option>
+    <option value="Pedido enviado">Pedido enviado</option>
+    <option value="Pedido entregue">Pedido entregue</option>
 
   </select><br>
 
