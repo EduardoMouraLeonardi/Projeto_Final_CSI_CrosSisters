@@ -163,7 +163,7 @@
 
 
 <!-- FIM DO CARD SEPARADO -->
-  <a class="btn-fixed" href="{{ url('/') }}">voltar ao inicio</a>
+  <a class="btn-fixed" href="#topo">voltar ao inicio</a>
 
 </div>
 <br>

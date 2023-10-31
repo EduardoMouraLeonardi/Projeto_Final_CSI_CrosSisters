@@ -18,7 +18,7 @@
 				
 			</style>
 	</head>
-	<body class="is-preload">
+	<body id="topo" class="is-preload">
 
 																		<!-- Navbar -->
 													
@@ -26,10 +26,10 @@
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         <a href="{{ url('/') }}" >
 		<img src="{{url('images\Logo_CrosSisters-removebg-preview (1).png')}}" alt="" width="45" height="45"></a>
-        <a class=" d-md-inline-block" href="{{ url('/listaDeProdutos') }}">Produtos</a>
+        <a class=" d-md-inline-block" href="{{ url('/listaDeProdutos') }}"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Produtos</a>
   		<a href="{{ url('/contato') }}"><i class="fa fa-envelope-open" aria-hidden="true"></i> Contact</a>
 		<a class=" d-md-inline-block" href="{{ url('/carrinho') }}"><i class="fa fa-cart-plus" aria-hidden="true"></i> Carrinho</a>
-  		<a href="{{ url('/login') }}"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
+  		<a href="{{ url('/login') }}"><i class="fa fa-user-circle " aria-hidden="true"></i> Login</a>
       </div>
 
     </nav>
