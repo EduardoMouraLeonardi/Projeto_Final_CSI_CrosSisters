@@ -6,6 +6,7 @@ use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\EmailController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\PedidoController;
 
 
