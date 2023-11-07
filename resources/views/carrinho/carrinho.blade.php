@@ -75,18 +75,6 @@
               </div>
             </div>
 
-            <div class="mb-3">
-              <label for="nickname" class="fw-normal">Nome de Usuário</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">@</span>
-                </div>
-                <input type="text" class="form-control" id="nickname" placeholder="" required>
-                <div class="invalid-feedback" style="width: 100%;">
-                  Seu nome de usuário é obrigatório.
-                </div>
-              </div>
-            </div>
 
             <div class="mb-3">
               <label for="email" class="fw-normal">Email <span class="text-muted">(Opcional)</span></label>
@@ -104,22 +92,8 @@
               </div>
             </div>
 
-            <div class="mb-3">
-              <label for="endereco2" class="fw-normal">Endereço 2 <span class="text-muted">(Opcional)</span></label>
-              <input type="text" class="form-control" id="endereco2" placeholder="">
-            </div>
-
             <div class="row">
-              <div class="col-md-5 mb-3">
-                <label for="pais" class="fw-normal">País</label>
-                <select class="custom-select d-block w-100" id="pais" required>
-                  <option value="">Nenhum</option>
-                  <option>Brasil</option>
-                </select>
-                <div class="invalid-feedback">
-                  Por favor, escolha um país válido.
-                </div>
-              </div>
+              
               <div class="col-md-4 mb-3">
                 <label for="estado" class="fw-normal">Estado</label>
                 <select class="custom-select d-block w-100" id="estado" required>
@@ -149,56 +123,7 @@
             </div>
             <hr class="mb-4">
 
-            <h4 class="mb-3">Pagamento</h4>
 
-            <div class="d-block my-3">
-              <div class="form-check">
-                <input id="credito" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                <label class="form-check-label" for="credito">  Cartão de crédito</label>
-              </div>
-              <div class="form-check">
-                <input id="debito" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="debito">  Cartão de débito</label>
-              </div>
-              <div class="form-check">
-                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="paypal"> Pix</label>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="cc-nome" class="fw-normal">Nome no cartão</label>
-                <input type="text" class="form-control" id="cc-nome" placeholder="" required>
-                <small class="text-muted">Nome completo, como mostrado no cartão.</small>
-                <div class="invalid-feedback">
-                  O nome que está no cartão é obrigatório.
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="cc-numero" class="fw-normal">Número do cartão de crédito</label>
-                <input type="text" class="form-control" id="cc-numero" placeholder="" required>
-                <div class="invalid-feedback">
-                  O número do cartão de crédito é obrigatório.
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3 mb-3">
-                <label for="cc-expiracao" class="fw-normal">Data de expiração</label>
-                <input type="text" class="form-control" id="cc-expiracao" placeholder="" required>
-                <div class="invalid-feedback">
-                  Data de expiração é obrigatória.
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <label for="cc-cvv" class="fw-normal">CVV</label>
-                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                <div class="invalid-feedback">
-                  Código de segurança é obrigatório.
-                </div>
-              </div>
-            </div>
-            <hr class="mb-4">
             <button class="btn btn-primary btn-lg btn-block" type="submit">Continue o checkout</button>
           </form>
         </div>
