@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->boolean('admin')->nullable();
             $table->boolean('cliente')->nullable();
-            $table->string('perfil')->default(1);
+            $table->string('perfil')->default('cliente');
             $table->rememberToken();
             $table->timestamps();
         });
