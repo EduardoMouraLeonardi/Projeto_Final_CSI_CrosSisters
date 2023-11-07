@@ -23,7 +23,7 @@ use App\Http\Controllers\PedidoController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('raiz');
 
 Route::middleware(['can:is_admin'])->group(function () {
 
