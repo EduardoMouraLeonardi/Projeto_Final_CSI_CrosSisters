@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Categoria;
 use App\Models\Produto;
 use App\Models\Email;
@@ -28,6 +29,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //$user = Auth::user();
+        //dd($user);
+
+        //if($user->perfil == 1){
+        //    return redirect()-> route('raiz');
+        //}
+
         $categoria_count = Categoria::count();
         $produtos_count = Produto::count();
         $email_count = Email::count();
