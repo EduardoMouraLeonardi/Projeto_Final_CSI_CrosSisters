@@ -13,10 +13,11 @@ return new class extends Migration
     {
         Schema::create('pedido', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id')->unsigned(); //unsigned: somente inteiros positivos
             $table->integer('numero');
-            $table->string('status');
-            $table->bigInteger('produto_id');
+            $table->enum('status', ['RE', 'PA', 'CA']); // Reservado, Pago, Cancelado
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
