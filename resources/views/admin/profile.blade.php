@@ -9,7 +9,10 @@
     <div class="col">
     <div class="container p-5 my-5 border">
     <img src="foto_perfil" alt="Foto de Perfil do Usuario"><br>
+    <form method="POST" action="{{ route('/admin/profile/') }}" enctype="multpart/form-data">
+    @csrf
     <input type="file" name="foto">
+    </form>
     </div>
     </div>
 
