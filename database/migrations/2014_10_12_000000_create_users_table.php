@@ -20,6 +20,8 @@ return new class extends Migration
             $table->boolean('admin')->nullable();
             $table->boolean('cliente')->nullable();
             $table->string('perfil')->default('cliente');
+            $table->string('filename')->nullable();
+            $table->string('path')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

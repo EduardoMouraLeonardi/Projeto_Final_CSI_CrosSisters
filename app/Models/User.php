@@ -23,6 +23,8 @@ class User extends Authenticatable
         'admin',
         'cliente',
         'password',
+        'filename',
+        'path',
     ];
 
     /**
