@@ -143,3 +143,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/admin/pages', [AdminController::class, 'pages'])->name('home');
 Route::get('/admin/profile/', [AdminController::class, 'profile']);
+Route::post('/admin/profile/', [AdminController::class, 'profile']);

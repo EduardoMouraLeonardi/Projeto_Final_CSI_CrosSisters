@@ -49,7 +49,7 @@
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Código promocional">
               <div class="input-group-append">
-                <button type="submit" class="btn btn-secondary">Resgatar</button>
+                <button type="submit" class="btn btn-secondary">Inserir</button>
               </div>
             </div>
           </form>
@@ -124,7 +124,7 @@
             <hr class="mb-4">
 
 
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue o checkout</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Comprar</button>
           </form>
         </div>
       </div>
