@@ -8,6 +8,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\PedidoController;
+use App\Http\Controllers\CupomController;
+
 
 
 /*
@@ -86,6 +88,21 @@ Route::middleware(['can:is_admin'])->group(function () {
     Route::put('/pedido/{id}', [PedidoController::class, 'update']);
 
     Route::delete('/pedido/{id}', [PedidoController::class, 'destroy']);
+
+
+    // CUPOM
+
+    Route::get('/categoria', [CategoriaController::class,'index'])->name('categoria.index');
+
+    Route::get('/categoria/create', [CategoriaController::class, 'create']);
+    Route::post('/categoria/create', [CategoriaController::class, 'store']);
+
+    Route::get('/categoria/{id}', [CategoriaController::class, 'show']);
+
+    Route::get('/categoria/{id}/edit', [CategoriaController::class, 'edit']);
+    Route::put('/categoria/{id}', [CategoriaController::class, 'update']);
+
+    Route::delete('/categoria/{id}/', [CategoriaController::class, 'destroy']);
 
 
 });
