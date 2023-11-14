@@ -8,6 +8,11 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\PedidoController;
+use App\Http\Controllers\PedidoProdutoController;
+use App\Http\Controllers\CupomController;
+use App\Http\Controllers\CarrinhoController;
+
+
 
 
 /*
@@ -86,6 +91,37 @@ Route::middleware(['can:is_admin'])->group(function () {
     Route::put('/pedido/{id}', [PedidoController::class, 'update']);
 
     Route::delete('/pedido/{id}', [PedidoController::class, 'destroy']);
+
+
+    // CUPOM
+
+    Route::get('/cupom', [CategoriaController::class,'index'])->name('cupom.index');
+
+    Route::get('/cupom/create', [CategoriaController::class, 'create']);
+    Route::post('/cupom/create', [CategoriaController::class, 'store']);
+
+    Route::get('/cupom/{id}', [CategoriaController::class, 'show']);
+
+    Route::get('/cupom/{id}/edit', [CategoriaController::class, 'edit']);
+    Route::put('/cupom/{id}', [CategoriaController::class, 'update']);
+
+    Route::delete('/cupom/{id}/', [CategoriaController::class, 'destroy']);
+
+
+    // CARRINHO
+
+    Route::get('/carrinho', [CategoriaController::class,'index'])->name('carrinho.index');
+
+    Route::get('/carrinho/create', [CategoriaController::class, 'create']);
+    Route::post('/carrinho/create', [CategoriaController::class, 'store']);
+
+    Route::get('/carrinho/{id}', [CategoriaController::class, 'show']);
+
+    Route::get('/carrinho/{id}/edit', [CategoriaController::class, 'edit']);
+    Route::put('/carrinho/{id}', [CategoriaController::class, 'update']);
+
+    Route::delete('/carrinho/{id}/', [CategoriaController::class, 'destroy']);
+
 
 
 });
