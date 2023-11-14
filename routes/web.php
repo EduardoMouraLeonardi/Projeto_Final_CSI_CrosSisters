@@ -95,32 +95,32 @@ Route::middleware(['can:is_admin'])->group(function () {
 
     // CUPOM
 
-    Route::get('/categoria', [CategoriaController::class,'index'])->name('categoria.index');
+    Route::get('/cupom', [CategoriaController::class,'index'])->name('cupom.index');
 
-    Route::get('/categoria/create', [CategoriaController::class, 'create']);
-    Route::post('/categoria/create', [CategoriaController::class, 'store']);
+    Route::get('/cupom/create', [CategoriaController::class, 'create']);
+    Route::post('/cupom/create', [CategoriaController::class, 'store']);
 
-    Route::get('/categoria/{id}', [CategoriaController::class, 'show']);
+    Route::get('/cupom/{id}', [CategoriaController::class, 'show']);
 
-    Route::get('/categoria/{id}/edit', [CategoriaController::class, 'edit']);
-    Route::put('/categoria/{id}', [CategoriaController::class, 'update']);
+    Route::get('/cupom/{id}/edit', [CategoriaController::class, 'edit']);
+    Route::put('/cupom/{id}', [CategoriaController::class, 'update']);
 
-    Route::delete('/categoria/{id}/', [CategoriaController::class, 'destroy']);
+    Route::delete('/cupom/{id}/', [CategoriaController::class, 'destroy']);
 
 
     // CARRINHO
 
-    Route::get('/categoria', [CategoriaController::class,'index'])->name('categoria.index');
+    Route::get('/carrinho', [CategoriaController::class,'index'])->name('carrinho.index');
 
-    Route::get('/categoria/create', [CategoriaController::class, 'create']);
-    Route::post('/categoria/create', [CategoriaController::class, 'store']);
+    Route::get('/carrinho/create', [CategoriaController::class, 'create']);
+    Route::post('/carrinho/create', [CategoriaController::class, 'store']);
 
-    Route::get('/categoria/{id}', [CategoriaController::class, 'show']);
+    Route::get('/carrinho/{id}', [CategoriaController::class, 'show']);
 
-    Route::get('/categoria/{id}/edit', [CategoriaController::class, 'edit']);
-    Route::put('/categoria/{id}', [CategoriaController::class, 'update']);
+    Route::get('/carrinho/{id}/edit', [CategoriaController::class, 'edit']);
+    Route::put('/carrinho/{id}', [CategoriaController::class, 'update']);
 
-    Route::delete('/categoria/{id}/', [CategoriaController::class, 'destroy']);
+    Route::delete('/carrinho/{id}/', [CategoriaController::class, 'destroy']);
 
 
 
