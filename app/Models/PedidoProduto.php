@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class PedidoProduto extends Model
 {
-    use HasFactory;
+    public function produto()
+    {
+        return $this->belongsTo('App\Produto', 'produto_id', 'id');
+    }
 }
