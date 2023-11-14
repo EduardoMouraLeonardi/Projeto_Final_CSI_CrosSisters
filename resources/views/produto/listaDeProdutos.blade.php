@@ -23,6 +23,8 @@
 								<p>R$ {{ $produto->preco }}</p>
 							</article>
 						
+							<button class="btn btn-light btn-block" type="submit">Comprar</button>
+
 						</div>
 
                     @endforeach

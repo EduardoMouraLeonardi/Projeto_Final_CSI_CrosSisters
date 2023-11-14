@@ -22,10 +22,10 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
-  --gray: #6c757d;
+  --gray: #FFF;
   --gray-dark: #343a40;
   --primary: #007bff;
-  --secondary: #6c757d;
+  --secondary: #FFF;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -215,7 +215,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #FFF;
   text-align: left;
   caption-side: bottom;
 }
