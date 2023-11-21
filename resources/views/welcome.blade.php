@@ -154,7 +154,8 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">E, por último, essa aqui. <span class="text-muted">Xeque-mate!</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Um lindo conjunto de calça legging e um cropped totalmente combinando pra você arrasar na sua academia com esse look babado. Clica nesse link abaixo e confira todos os conjuntos que combine mais com você:</p>
+            <a href="#">Mostrar mais</a>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="https://www.vennanci.com/cdn/shop/products/roupa-de-academia-feminina-conjunto-2022-699991_800x.jpg?v=1664481690" data-holder-rendered="true" style="width: 500px; height: 500px;">
