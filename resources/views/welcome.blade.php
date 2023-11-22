@@ -130,7 +130,8 @@
 <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Supreendente, não?! <span class="text-muted"> Olha esse conjunto!!</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Se ainda não escolheu o look perfeito pro seu dia, vem conferir esse conjuntinho lindo. Estilo que vai se destacar em qualquer lugar.Clica nesse link abaixo e confira todos os conjuntos que combine mais com você:</p>
+            <a href="#">Mostrar mais</a>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="https://euamopromocao.myshopify.com/cdn/shop/products/product-image-1859094569_1024x1024@2x.jpg?v=1643310973" data-holder-rendered="true">
@@ -142,7 +143,8 @@
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">Aêêê, mulherada! <span class="text-muted">Tá legal ou não tá?</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Friozinho chegando e aí Sisters, já tem aquela peça chave para compor o look?.Clica nesse link abaixo e confira todos os conjuntos que combine mais com você:</p>
+            <a href="#">Mostrar mais</a>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="https://tudodellashop.com.br/cdn/shop/products/H160c3281c0aa4116bc2779805220bf71C_600x.jpg?v=1687307891" data-holder-rendered="true" style="width: 500px; height: 500px;">
