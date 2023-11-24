@@ -4,8 +4,13 @@
 
   <body class="bg-light">
     
-      <div class="row" >
+            <div class="row" >
+            
         <div class="col-md-4 order-md-2 mb-4 wrapper style3">
+        @empty($pedidos)
+              <h2>Não há nenhum pedido no seu carrinho<h2>
+            @endempty
+
           <h3 class="d-flex justify-content-between align-items-center mb-3">
             <span class="text-muted">Seu carrinho</span>
             <span class="badge badge-secondary badge-pill">3</span>
@@ -54,7 +59,16 @@
             </div>
           </form>
 
-        </div>
+
+            @if (isset($pedidos))       
+              <h2>Não há nenhum pedido no seu carrinho<h2>
+            @endif
+
+
+
+
+</div>
+        
         <div class="col-md-8 order-md-1" >
           <h3 class="mb-3">Endereço de cobrança</h3>
           <form class="needs-validation" novalidate>
