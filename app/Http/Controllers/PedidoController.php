@@ -11,7 +11,7 @@ class PedidoController extends Controller
     public function index()
     {
         $pedido = Pedido::get();
-        return view('pedido.pedido_index', ['pedido' => $pedido]);
+        return view('pedido.pedido_index', ['pedidos' => $pedidos]);
     }
 
     public function create()
