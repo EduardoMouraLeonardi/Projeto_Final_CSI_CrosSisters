@@ -102,7 +102,7 @@
 
                                 <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR97Z92cjRM2sZKNR7acAgoONgj9vbJErJ8iSpIQYHJwMhy19ImzcLa77YkiHaTRdGPbQ&usqp=CAU" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdWvY7Hxdu4wyL9-aQU8WZpuL5t4HgqwPRzRAPypaSF2dYnIigxM9AC8CrI-ON5A4DvIo&usqp=CAU" width="140" height="140">
             <h2>Título</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
