@@ -109,14 +109,14 @@
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Vb1Ilcibte73KPY-xweVzaD34EK5WJY6AQ&usqp=CAU" alt="Generic placeholder image" width="140" height="140">
-            <h2>Short Legging</h2>
-            <p>Na Crossisters tem os shortinhos mais lindos e confortáveis para os seus treinos!</p>
+            <h2>Short</h2>
+            <p>O Short de academia é uma das peças coringas para você montar o seu look. Sabemos o quanto é difícil combinar looks para academia e, por isso, temos peças de cores básicas para você criar várias combinações diferentes.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQizf2pgvlyLvEqoL4zyggSJe8tHDyN8CEK4jwbiYEts3pwn01h0wqCTWYCRkgYbxiQUp8&usqp=CAU" alt="Generic placeholder image" width="140" height="140">
-            <h2>Short saia Legging</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h2>Short Saia</h2>
+            <p>O Short Saia é um produto muito estiloso, ideal para quem não abre mão de versatilidade, o shorts é feito em suplex e uma saia também em suplex como sobreposição, deixa um caimento lindo no seu look completando seu visual trazendo feminilidade.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
         </div>
