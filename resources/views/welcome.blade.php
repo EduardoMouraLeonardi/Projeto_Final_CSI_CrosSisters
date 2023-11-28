@@ -15,10 +15,10 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.uniflores.com.br/media/catalog/product/b/u/buqu_-garden-flores-do-campo.jpg" class="d-block w-100" alt="...">
+      <img src="https://marketplace.canva.com/EAFRaJSn_KU/1/0/800w/canva-post-instagram-black-friday-desconto-moderno-simples-preto-e-amarelo-vpJVCYrAm-E.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>APROVEITE AS SUPER PROMOÇÕES DA NOSSA LOJA!!!</h5>
+        <p>Vem para a CrosSisters, look novo e sempre linda.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -46,10 +46,11 @@
   </button>
 </div>
 </div>
+<br><br>
 																<!-- fim do carrossel-->
 
-        <h1> Promoções!!! </h1>
-
+        <h1> Promoção Black Friday!!! </h1>
+        <br><br>
 																<!-- Card -->
 	<div class="container">
 	<div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center">
@@ -100,7 +101,7 @@
   </div>
 </div>
 																<!-- fim do card-->
-
+                                <br><br>
                                 <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19nkhMcgWHRmqwBdkwTWFoDcUk5AJs8y96w&usqp=CAU" width="140" height="140">
