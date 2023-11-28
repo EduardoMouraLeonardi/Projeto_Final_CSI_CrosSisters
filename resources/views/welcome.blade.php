@@ -56,7 +56,7 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://www.rdisports.com.br/cdn/shop/products/H6cd3e92138f3474bb4b8c9b4801a6ec1g_47728b86-c09c-4791-b5d0-ebe08e4d3ac9.jpg?v=1644418708" class="card-img-top" alt="...">
+      <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -89,7 +89,7 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://piauihoje.com/uploads/imagens/images-6%7C1582726816.jpg" class="card-img-top" alt="...">
+      <img src="https://images-americanas.b2w.io/produtos/7395426857/imagens/short-saia-fitness-com-bolso-roupa-feminina-academia-preto/7395426873_1_large.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
