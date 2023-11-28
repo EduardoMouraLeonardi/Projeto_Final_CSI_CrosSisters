@@ -62,6 +62,7 @@
 
         <h5 class="card-title">Macaquinho Gray and White</h5>
         <p class="card-text">Este Macaquinho fitness é produzido com tecido microfibra e é otimo para malhar.</p>
+        <br>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
