@@ -109,8 +109,8 @@
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Vb1Ilcibte73KPY-xweVzaD34EK5WJY6AQ&usqp=CAU" alt="Generic placeholder image" width="140" height="140">
-            <h2>Short Legging</h2>
-            <p>Na Crossisters tem os shortinhos mais lindos e confortáveis para os seus treinos!</p>
+            <h2>Short</h2>
+            <p>O Short de academia é uma das peças coringas para você montar o seu look. Sabemos o quanto é difícil combinar looks para academia e, por isso, temos peças de cores básicas para você criar várias combinações diferentes.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
