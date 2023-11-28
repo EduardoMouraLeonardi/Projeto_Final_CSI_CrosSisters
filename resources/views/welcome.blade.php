@@ -68,7 +68,7 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://cdn.awsli.com.br/1049/1049693/produto/38773047/62e576fe08.jpg" class="card-img-top" alt="...">
+      <img src="https://m.media-amazon.com/images/I/51zHTqXaaKS._AC_UL320_.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
