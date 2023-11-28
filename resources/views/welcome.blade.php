@@ -67,17 +67,6 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://images.tcdn.com.br/img/img_prod/820854/kit_5_roupa_academia_feminina_conjunto_fitness_top_cropped_e_short_plus_size_717_8_0002a8ab0e9d3af5c8a273f7cb5dfefd.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col card border-dark mb-3" style="max-width: 18rem;">
-    <div class="card-body">
       <img src="https://imgcentauro-a.akamaihd.net/1366x1366/M0N2Q402A1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Conjunto Fristyle Fitness Short e Top Academia</h5>
