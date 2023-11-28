@@ -106,7 +106,6 @@
             <h2>Calça Legging</h2>
             <p>As legging vai te surpreender de tão perfeita que veste. E ainda ela não escorrega, trazendo segurança e alta performance durante os treinos.Look novo e sempre linda.</p>
             <br>
-            <br>
             <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
