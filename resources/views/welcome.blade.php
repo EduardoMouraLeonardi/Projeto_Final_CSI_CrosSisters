@@ -71,6 +71,10 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        <h5 class="card-title">Macacão Feminino</h5>
+        <p class="card-text">MACACÃO CURTO DEGRADÊ FITNESS FEMININO TIRAS NAS COSTAS E BOJO REMOVÍVEL.</p>
+
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
@@ -80,8 +84,8 @@
     <div class="card-body">
       <img src="https://imgcentauro-a.akamaihd.net/1366x1366/M0N2Q402A1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Conjunto Fristyle Fitness Short e Top Academia</h5>
+        <p class="card-text">Este conjunto fitness é composto por um short e um top sem bojo, que são produzidos em tecido microfibra.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
