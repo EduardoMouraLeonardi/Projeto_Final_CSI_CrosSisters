@@ -56,7 +56,7 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://85454.cdn.simplo7.net/static/85454/sku/feminino-conjunto-feminino-power-girl-preto-lilas-acetinado--p-1673796943798.png " width="680" height="1020"class="card-img-top" alt="...">
+      <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
       <div class="card-body">
 
         <h5 class="card-title">Card title</h5>
@@ -70,8 +70,8 @@
     <div class="card-body">
       <img src="https://cdn.awsli.com.br/1049/1049693/produto/38773047/62e576fe08.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Conjunto Dark Blue Fitness Short e Top Academia</h5>
+        <p class="card-text">Este conjunto fitness é composto por um short e um top sem bojo, que são produzidos em tecido microfibra.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
