@@ -60,8 +60,8 @@
       <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
       <div class="card-body">
 
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Macaquinho Gray and White</h5>
+        <p class="card-text">Este Macaquinho fitness é produzido com tecido microfibra e é otimo para malhar.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
