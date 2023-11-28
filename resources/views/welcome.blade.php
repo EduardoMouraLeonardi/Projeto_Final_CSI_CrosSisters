@@ -58,6 +58,7 @@
     <div class="card-body">
       <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
       <div class="card-body">
+
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
@@ -87,6 +88,17 @@
     </div>
   </div>
 
+  <div class="col card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card-body">
+      <img src="https://imgs.extra.com.br/1559971127/1xg.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
 																<!-- fim do card-->
 
                                 <div class="row">
