@@ -12,6 +12,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -22,10 +23,10 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://www.uniflores.com.br/media/catalog/product/b/u/buqu_-garden-flores-do-campo.jpg" class="d-block w-100" alt="...">
+      <img src="https://ae01.alicdn.com/kf/H96fd7be7309d4a52ab693f7924decae3R/Conjunto-de-academia-sem-costura-feminino-roupas-fitness-para-mulheres-manga-curta-top-crop-cintura-alta.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>VEM DE CONJUNTO!!!</h5>
+        <p>Que tal um look novo para te motivar mais ainda a iniciar ou até mesmo continuar praticando atividade física hein???.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -35,7 +36,15 @@
         <p>Vem para a CrosSisters, look novo e sempre linda.</p>
       </div>
     </div>
+    <div class="carousel-item">
+      <img src="https://ae01.alicdn.com/kf/H5b87d93a83f047d59fb9604258460598N/Conjunto-de-academia-sem-costura-feminino-roupas-fitness-para-mulheres-manga-curta-top-crop-cintura-alta.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>VEM DE CONJUNTO!!!</h5>
+        <p>Quem ama aquele look com a modelagem impecável? Esse é perfeito para você!</p>
+      </div>
+    </div>
   </div>
+  
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
