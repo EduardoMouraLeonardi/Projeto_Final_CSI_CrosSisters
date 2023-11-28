@@ -56,7 +56,7 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
+      <img src="https://m.media-amazon.com/images/I/61USvUPlM4L._AC_SY606_.jpg" class="card-img-top" alt="...">
       <div class="card-body">
 
         <h5 class="card-title">Card title</h5>
