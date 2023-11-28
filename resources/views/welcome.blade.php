@@ -60,8 +60,10 @@
       <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
       <div class="card-body">
 
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Macaquinho Gray and White</h5>
+        <p class="card-text">Este Macaquinho fitness é produzido com tecido microfibra e é otimo para malhar.</p>
+        <br>
+        <br>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
@@ -71,8 +73,8 @@
     <div class="card-body">
       <img src="https://cdn.awsli.com.br/1049/1049693/produto/38773047/62e576fe08.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Conjunto Dark Blue Fitness Short e Top Academia</h5>
-        <p class="card-text">Este conjunto fitness é composto por um short e um top sem bojo, que são produzidos em tecido microfibra.</p>
+        <h5 class="card-title">Conjunto White Fitness Short e Top Academia</h5>
+        <p class="card-text">Este conjunto fitness é composto por uma calça e um top sem bojo, que são produzidos em tecido microfibra.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
@@ -93,8 +95,8 @@
     <div class="card-body">
       <img src="https://imgs.extra.com.br/1559971127/1xg.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Conjunto Dark Blue Fitness Short e Top Academia</h5>
+        <p class="card-text">Este conjunto fitness é composto por um short e um top sem bojo, que são produzidos em tecido microfibra.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
