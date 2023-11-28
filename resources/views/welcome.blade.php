@@ -29,10 +29,10 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://www.uniflores.com.br/media/catalog/product/b/u/buqu_-garden-flores-do-campo.jpg" class="d-block w-100" alt="...">
+      <img src="https://marketplace.canva.com/EAFRaJSn_KU/1/0/800w/canva-post-instagram-black-friday-desconto-moderno-simples-preto-e-amarelo-vpJVCYrAm-E.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>APROVEITE AS SUPER PROMOÇÕES DA NOSSA LOJA!!!</h5>
+        <p>Vem para a CrosSisters, look novo e sempre linda.</p>
       </div>
     </div>
   </div>
