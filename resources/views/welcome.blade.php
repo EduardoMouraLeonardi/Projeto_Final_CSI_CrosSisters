@@ -56,7 +56,7 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://85454.cdn.simplo7.net/static/85454/sku/feminino-conjunto-feminino-power-girl-preto-lilas-acetinado--p-1673796943798.png" class="card-img-top" alt="...">
+      <img src="https://85454.cdn.simplo7.net/static/85454/sku/feminino-conjunto-feminino-power-girl-preto-lilas-acetinado--p-1673796943798.png " width="680" height="1020"class="card-img-top" alt="...">
       <div class="card-body">
 
         <h5 class="card-title">Card title</h5>
