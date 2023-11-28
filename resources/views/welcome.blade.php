@@ -59,6 +59,7 @@
     <div class="card-body">
       <img src="https://orbisfitness.com.br/wp-content/uploads/2023/01/LAF4180_Orbis.jpg" class="card-img-top" alt="...">
       <div class="card-body">
+
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
@@ -68,10 +69,10 @@
 
   <div class="col card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-body">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-TociBtUx-0bOp0Bv3YeLhf1Rb6W-zxplA&usqp=CAU" class="card-img-top" alt="...">
+      <img src="https://cdn.awsli.com.br/1049/1049693/produto/38773047/62e576fe08.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Conjunto Dark Blue Fitness Short e Top Academia</h5>
+        <p class="card-text">Este conjunto fitness é composto por um short e um top sem bojo, que são produzidos em tecido microfibra.</p>
         <a href="{{ url('/carrinho') }}" class="btn btn-success">Comprar</a>
       </div>
     </div>
